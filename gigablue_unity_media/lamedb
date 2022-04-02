@@ -1,13 +1,34 @@
 eDVB services /4/
 transponders
+ffff0000:00bf:0000
+	c 449970:6900000:2:5:0:0:0
+/
+ffff0000:00d3:0000
+	c 425984:6900000:2:5:0:0:0
+/
+ffff0000:00f1:0000
+	c 417988:6900000:2:5:0:0:0
+/
+ffff0000:010f:0000
+	c 433979:6900000:2:5:0:0:0
+/
+ffff0000:01cd:0000
+	c 441974:6900000:2:5:0:0:0
+/
+ffff0000:01d7:0000
+	c 401997:6900000:2:5:0:0:0
+/
+ffff0000:01e1:0000
+	c 409993:6900000:2:5:0:0:0
+/
+ffff0000:01ff:0000
+	c 457965:6900000:2:5:0:0:0
+/
 ffff0000:0437:0066
-	c 338000:6900000:2:5:0:0:0
+	c 337969:6900000:2:5:0:0:0
 /
 ffff0000:0001:0085
 	c 386000:6900000:2:5:0:0:0
-/
-ffff0000:0002:0085
-	c 370000:6900000:2:5:0:0:0
 /
 ffff0000:0003:0085
 	c 362000:6900000:2:5:0:0:0
@@ -24,11 +45,8 @@ ffff0000:000c:0085
 ffff0000:000d:0085
 	c 162000:6900000:2:5:0:0:0
 /
-ffff0000:006f:270f
-	c 122000:6900000:2:5:0:0:0
-/
 ffff0000:0079:270f
-	c 114000:6900000:2:3:9:0:0
+	c 114000:6900000:2:5:0:0:0
 /
 ffff0000:0083:270f
 	c 346000:6900000:2:5:0:0:0
@@ -48,26 +66,14 @@ ffff0000:00ab:270f
 ffff0000:00b5:270f
 	c 282000:6900000:2:5:0:0:0
 /
-ffff0000:00bf:270f
-	c 450000:6900000:2:5:0:0:0
-/
-ffff0000:00d3:270f
+ffff0000:00dd:270f
 	c 290000:6900000:2:5:0:0:0
 /
-ffff0000:00dd:270f
-	c 426000:6900000:2:5:0:0:0
-/
 ffff0000:00e7:270f
-	c 434000:6900000:2:5:0:0:0
-/
-ffff0000:00f1:270f
-	c 418000:6900000:2:5:0:0:0
+	c 266000:6900000:2:5:0:0:0
 /
 ffff0000:00fb:270f
 	c 610000:6900000:2:3:0:0:0
-/
-ffff0000:010f:270f
-	c 266000:6900000:2:5:0:0:0
 /
 ffff0000:0141:270f
 	c 146000:6900000:2:5:0:0:0
@@ -99,17 +105,8 @@ ffff0000:01b9:270f
 ffff0000:01c3:270f
 	c 234000:6900000:2:5:0:0:0
 /
-ffff0000:01cd:270f
-	c 442000:6900000:2:5:0:0:0
-/
-ffff0000:01d7:270f
-	c 402000:6900000:2:5:0:0:0
-/
-ffff0000:01e1:270f
-	c 410000:6900000:2:5:0:0:0
-/
-ffff0000:01ff:270f
-	c 458000:6900000:2:5:0:0:0
+ffff0000:01f5:270f
+	c 178000:6900000:2:5:0:0:0
 /
 ffff0000:021d:270f
 	c 138000:6900000:2:5:0:0:0
@@ -123,6 +120,9 @@ ffff0000:023b:270f
 ffff0000:0245:270f
 	c 258000:6900000:2:5:0:0:0
 /
+ffff0000:024f:270f
+	c 370000:6900000:2:5:0:0:0
+/
 ffff0000:041b:a401
 	c 330000:6900000:2:5:0:0:0
 /
@@ -134,53 +134,56 @@ ffff0000:044d:a401
 /
 end
 services
-0bc5:ffff0000:0083:270f:0:0
-KBW_DS_evol3
-p:UMKBW
-3b00:ffff0000:0097:270f:1:0
-BonGusto
+e300:ffff0000:0245:270f:1:0
+KAZAKH TV
 p:Unitymedia
-0201:ffff0000:0003:0085:1:0
-Blue Movie
+0001:ffff0000:010f:0000:1:0
+433 SID 0x01
+p:
+0001:ffff0000:00bf:0000:1:0
+449 SID 0x01
+p:
+0001:ffff0000:01cd:0000:1:0
+441 SID 0x01
+p:
+0001:ffff0000:00d3:0000:1:0
+425 SID 0x01
+p:
+0001:ffff0000:01d7:0000:1:0
+401 SID 0x01
+p:
+0001:ffff0000:01e1:0000:1:0
+409 SID 0x01
+p:
+0001:ffff0000:00f1:0000:1:0
+417 SID 0x01
+p:
+0001:ffff0000:01ff:0000:1:0
+457 SID 0x01
+p:
+0201:ffff0000:0004:0085:1:0
+.
 p:SKY
-0402:ffff0000:0001:0085:1:0
-Disney Junior
+e301:ffff0000:0245:270f:1:0
+Pro TV International
 p:Unitymedia
-3b02:ffff0000:0097:270f:1:0
-Fashion TV
+e302:ffff0000:0245:270f:1:0
+Ginx TV
 p:Unitymedia
-3b03:ffff0000:0097:270f:1:0
-E! Entertainment
-p:Unitymedia
-0204:ffff0000:0002:0085:1:0
-Sky Cinema Nostalgie
-p:SKY
-0404:ffff0000:0001:0085:1:0
-Disney XD
-p:Unitymedia
+0204:ffff0000:0003:0085:1:0
+Sky Cinema Classics
+p:SKY,C:0000
 3b04:ffff0000:008d:270f:1:0
 Lust Pur
-p:Unitymedia
-0105:ffff0000:0002:0085:1:0
-Sky Select 2
-p:SKY
-3b05:ffff0000:0097:270f:1:0
-PENTHOUSE
-p:Unitymedia
-6605:ffff0000:01cd:270f:1:0
-Mediaset
 p:Unitymedia
 8d05:ffff0000:0169:270f:1:0
 Offener Kanal
 p:Unitymedia
-0206:ffff0000:0001:0085:1:0
+0206:ffff0000:0003:0085:1:0
 Romance TV
 p:SKY
 3b06:ffff0000:0097:270f:1:0
 Bibel TV
-p:Unitymedia
-6606:ffff0000:01cd:270f:1:0
-TNT Comedy
 p:Unitymedia
 8d06:ffff0000:0169:270f:1:0
 Rhein-Main-TV
@@ -188,305 +191,161 @@ p:Unitymedia
 3b07:ffff0000:0097:270f:1:0
 Cartoon Network
 p:Unitymedia
-8d07:ffff0000:0169:270f:1:0
-Infokanal
-p:Unitymedia
-0008:ffff0000:0002:0085:1:0
-Sky Cinema Comedy
+0008:ffff0000:0001:0085:1:0
+Sky Cinema Fun
 p:SKY,C:0000
-3b08:ffff0000:0097:270f:1:0
-VH1 Classic
-p:Unitymedia
-0009:ffff0000:0002:0085:1:0
-Sky Cinema Action
-p:SKY,C:0000
-000a:ffff0000:0002:0085:1:0
-Sky Cinema
-p:SKY,C:0000
-000b:ffff0000:0002:0085:1:0
-Sky Cinema +1
-p:SKY,C:0000
-660b:ffff0000:01e1:270f:1:0
-UNIVERSAL TV
-p:Unitymedia,C:0000
-000c:ffff0000:0004:0085:1:0
-NatGeo Wild
-p:SKY,C:0000
-040c:ffff0000:0001:0085:1:0
-SYFY
-p:Unitymedia
 3b0c:ffff0000:0097:270f:1:0
 Sport1+
 p:Unitymedia
-000d:ffff0000:0004:0085:1:0
-National Geographic (S)
-p:SKY,C:0000
-000e:ffff0000:0004:0085:1:0
-Discovery Channel (S)
-p:SKY,C:0000
+3b0d:ffff0000:0097:270f:1:0
+HopeTV
+p:Unitymedia
+3b0e:ffff0000:0097:270f:1:0
+France 3
+p:Unitymedia
 620e:ffff0000:00b5:270f:1:0
-TV5MONDE Europe
+TV5MONDE Europe
 p:Unitymedia
-010f:ffff0000:0001:0085:1:0
-Sky Select 3
-p:SKY
-620f:ffff0000:00f1:270f:1:0
-CLASSICA
+3b0f:ffff0000:0097:270f:1:0
+France 5
 p:Unitymedia
-0010:ffff0000:0001:0085:1:0
-Fox Serie (S)
-p:SKY,C:0000
+3b10:ffff0000:0097:270f:1:0
+TNT Comedy
+p:Unitymedia
 6210:ffff0000:0083:270f:1:0
-A&E
+Crime + Investigation
 p:Unitymedia
-0011:ffff0000:0003:0085:1:0
-Sky Sport News
-p:SKY
+3b11:ffff0000:0097:270f:1:0
+France 24 (en francais)
+p:Unitymedia
 6211:ffff0000:0083:270f:1:0
 TOGGO plus
 p:Unitymedia
-0012:ffff0000:0004:0085:1:0
-Sky Select
-p:SKY
-0412:ffff0000:0004:0085:1:0
-13th Street
-p:Unitymedia,C:0000
-6212:ffff0000:00f1:270f:1:0
-MTV Brand New
+3b12:ffff0000:0097:270f:1:0
+France 2
 p:Unitymedia
 0013:ffff0000:0001:0085:1:0
 Junior
-p:SKY
+p:SKY,C:0000
+3b13:ffff0000:0097:270f:1:0
+Astro TV
+p:Unitymedia
 6213:ffff0000:00b5:270f:1:0
-PowerTürk TV
+Show Max
 p:Unitymedia
-0014:ffff0000:0002:0085:1:0
-Sky Cinema Emotion
-p:SKY,C:0000
-0015:ffff0000:0001:0085:1:0
-Beate-Uhse.TV
-p:SKY
-6215:ffff0000:00f1:270f:1:0
-TVN 24
+3b14:ffff0000:0097:270f:1:0
+Antenna TV
 p:Unitymedia
-0016:ffff0000:0001:0085:1:0
+3b15:ffff0000:0097:270f:1:0
+NHK WORLD-JAPAN
+p:Unitymedia
+0016:ffff0000:0003:0085:1:0
 Heimatkanal
-p:SKY
-0017:ffff0000:0004:0085:1:0
-Sky Krimi
 p:SKY,C:0000
+3b16:ffff0000:0097:270f:1:0
+Disney Junior
+p:Unitymedia
 3717:ffff0000:008d:270f:1:0
 CNBC
 p:Unitymedia
 6217:ffff0000:0083:270f:1:0
-sportdigital
+SPORTDIGITAL FUSSBALL
 p:Unitymedia
-0018:ffff0000:0001:0085:1:0
-Classica
-p:SKY
-3718:ffff0000:008d:270f:1:0
-Spiegel TV Wissen
-p:Unitymedia
-0019:ffff0000:0003:0085:1:0
-Disney Cinemagic
-p:SKY,C:0000
-0119:ffff0000:0001:0085:1:0
-Sky Select 4
-p:SKY
 3719:ffff0000:008d:270f:1:0
 Boomerang
 p:Unitymedia
-001a:ffff0000:0001:0085:1:0
-Disney Junior (S)
+001c:ffff0000:0004:0085:1:0
+Boomerang
 p:SKY
-041a:ffff0000:0001:0085:1:0
-TNT Serie
-p:Unitymedia
-001b:ffff0000:0004:0085:1:0
-Universal TV
-p:SKY,C:0000
-001c:ffff0000:0001:0085:1:0
-Disney XD (S)
-p:SKY
-371c:ffff0000:008d:270f:1:0
-Sport 1 US
-p:Unitymedia
 001d:ffff0000:0004:0085:1:0
 TNT Comedy
-p:SKY,C:0000
-001e:ffff0000:0001:0085:1:0
-Sky Sport Austria
+p:SKY
+001e:ffff0000:0004:0085:1:0
+Sky Sport Austria 1
 p:SKY
 371e:ffff0000:008d:270f:1:0
 EUROSPORT 2
 p:Unitymedia
-621e:ffff0000:01d7:270f:1:0
-Pink Film
-p:Unitymedia,C:0000
-b41e:ffff0000:01ff:270f:1:0
-Al Arabiya
-p:Unitymedia
 371f:ffff0000:008d:270f:1:0
-TNT Film
+TNT Film
 p:Unitymedia
-621f:ffff0000:01d7:270f:1:0
-Pink FOLK
-p:Unitymedia,C:0000
-b41f:ffff0000:01e1:270f:1:0
-BN TV
-p:Unitymedia
-b420:ffff0000:01cd:270f:1:0
-NHK WORLD-JAPAN
-p:Unitymedia
-0022:ffff0000:0001:0085:1:0
-Sky Atlantic
-p:SKY
-0123:ffff0000:0003:0085:1:0
-Sky Select 5
-p:SKY
-0024:ffff0000:0001:0085:1:0
-SYFY (S)
-p:SKY
 5e25:ffff0000:00b5:270f:1:0
-VIVA/COMEDY CENTRAL
+COMEDY CENTRAL
 p:Unitymedia
 5e27:ffff0000:00ab:270f:1:0
 QVC
 p:Unitymedia
-6227:ffff0000:01e1:270f:1:0
-Klan Kosova
-p:Unitymedia,C:0000
 5e28:ffff0000:00ab:270f:1:0
-HSE24
+HSE
 p:Unitymedia
-6228:ffff0000:01d7:270f:1:0
-RTK1
-p:Unitymedia,C:0000
-0029:ffff0000:0003:0085:1:0
-Sky Cinema Hits
-p:SKY,C:0000
 5e29:ffff0000:00b5:270f:1:0
 Channel21
 p:Unitymedia
-6229:ffff0000:01d7:270f:1:0
-Rai News 24
-p:Unitymedia,C:0000
-002a:ffff0000:0004:0085:1:0
-13th Street (S)
-p:SKY,C:0000
 5e2a:ffff0000:00b5:270f:1:0
 1-2-3.tv
 p:Unitymedia
-622a:ffff0000:01d7:270f:1:0
-France 4
-p:Unitymedia,C:0000
-002b:ffff0000:0002:0085:1:0
-Sky Cinema +24
+002b:ffff0000:0003:0085:1:0
+Sky Cinema Premieren +24
 p:SKY,C:0000
 372b:ffff0000:008d:270f:1:0
 Romance TV
 p:Unitymedia
-622b:ffff0000:01d7:270f:1:0
-Rai Storia
-p:Unitymedia,C:0000
-372c:ffff0000:008d:270f:1:0
-Travel Channel Deutschland
-p:Unitymedia
 5e2c:ffff0000:00b5:270f:1:0
 DMAX
 p:Unitymedia
-622c:ffff0000:01d7:270f:1:0
-RTS Sat
-p:Unitymedia
-012d:ffff0000:0003:0085:1:0
-Sky Select 6
-p:SKY
-372d:ffff0000:008d:270f:1:0
-Motorvision
-p:Unitymedia
 5e2d:ffff0000:00b5:270f:1:0
 CNN
-p:Unitymedia
-622d:ffff0000:01d7:270f:1:0
-TV Crne Gore Sat
 p:Unitymedia
 6e2d:ffff0000:0431:a401:1:0
 rbb Brandenburg
 p:ARD
 332e:ffff0000:0083:270f:1:0
-HISTORY
-p:Unitymedia,C:0000
-5e2e:ffff0000:00f1:270f:1:0
-Bloomberg
-p:Unitymedia
-622e:ffff0000:01e1:270f:1:0
-RTV21
+The HISTORY Channel
 p:Unitymedia,C:0000
 6e2e:ffff0000:0431:a401:1:0
 rbb Berlin
 p:ARD
-622f:ffff0000:01ff:270f:1:0
-Kohavision TV
-p:Unitymedia,C:0000
-3330:ffff0000:00f1:270f:1:0
-PLANET
-p:Unitymedia,C:0000
+372f:ffff0000:008d:270f:1:0
+13th Street
+p:Unitymedia
 5e30:ffff0000:00b5:270f:1:0
 sonnenklar.TV
 p:Unitymedia
-6230:ffff0000:01d7:270f:1:0
-DM SAT
+3731:ffff0000:008d:270f:1:0
+Fix&Foxi
 p:Unitymedia
 7031:ffff0000:041b:a401:1:0
 tagesschau24
 p:ARD
-0032:ffff0000:0001:0085:1:0
-TNT Serie (S)
-p:SKY
+3732:ffff0000:008d:270f:1:0
+Bloomberg
+p:Unitymedia
 7032:ffff0000:041b:a401:1:0
 ONE
 p:ARD
 3333:ffff0000:0083:270f:1:0
 Kinowelt TV
-p:Unitymedia,C:0000
+p:Unitymedia
+3733:ffff0000:008d:270f:1:0
+Baby TV
+p:Unitymedia
 0034:ffff0000:0004:0085:1:0
 Spiegel Geschichte
-p:SKY,C:0000
-3334:ffff0000:00f1:270f:1:0
-Silverline Movie Channel
-p:Unitymedia,C:0000
+p:SKY
 7034:ffff0000:041b:a401:1:0
 arte
 p:ARD
 3335:ffff0000:0083:270f:1:0
-AXN Action
-p:Unitymedia,C:0000
+SONY AXN
+p:Unitymedia
 7035:ffff0000:041b:a401:1:0
-PHOENIX
+phoenix
 p:ARD
-0137:ffff0000:0003:0085:1:0
-Sky Select 7
-p:SKY
-3337:ffff0000:0083:270f:1:0
-Gute Laune TV
-p:Unitymedia,C:0000
 3338:ffff0000:0083:270f:1:0
 kabel eins classics
-p:Unitymedia,C:0000
-5e38:ffff0000:00f1:270f:1:0
-XITE
 p:Unitymedia
 3339:ffff0000:0083:270f:1:0
-Sat.1 Emotions
-p:Unitymedia,C:0000
-5e3a:ffff0000:00f1:270f:1:0
-ATV Avrupa
-p:Unitymedia
-5e3b:ffff0000:00f1:270f:1:0
-God.TV
-p:Unitymedia
-5e3c:ffff0000:00f1:270f:1:0
-Health TV
+SAT.1 emotions
 p:Unitymedia
 5a3d:ffff0000:00e7:270f:1:0
 TV 8
@@ -494,23 +353,29 @@ p:Unitymedia,C:0000
 5a3e:ffff0000:00e7:270f:1:0
 24Horas
 p:Unitymedia,C:0000
+623f:ffff0000:00fb:270f:1:0
+Al Arabiya
+p:Unitymedia
 5a40:ffff0000:00e7:270f:1:0
 EURO STAR
 p:Unitymedia
 6e40:ffff0000:0431:a401:1:0
 NDR FS MV
 p:ARD
-0141:ffff0000:0003:0085:1:0
-Sky Select 8
-p:SKY
 5a41:ffff0000:00e7:270f:1:0
 EURO D
+p:Unitymedia
+6241:ffff0000:00fb:270f:1:0
+MBC Maghreb al Arabia
 p:Unitymedia
 6e41:ffff0000:0431:a401:1:0
 NDR FS HH
 p:ARD
 5a42:ffff0000:00e7:270f:1:0
 Nasch Kinomir
+p:Unitymedia
+6242:ffff0000:00fb:270f:1:0
+NTV Mir
 p:Unitymedia
 6e42:ffff0000:0431:a401:1:0
 NDR FS NDS
@@ -563,53 +428,32 @@ p:Unitymedia
 2f48:ffff0000:00a1:270f:1:0
 VOX
 p:Unitymedia
-5a48:ffff0000:01e1:270f:1:0
-TRT Türk
-p:Unitymedia
 2f49:ffff0000:00a1:270f:1:0
-RTL2
-p:Unitymedia,c:000233,c:010234,c:020238,c:030233
-ac49:ffff0000:010f:270f:1:0
-RCK TV
+RTLZWEI
 p:Unitymedia
 2f4a:ffff0000:00a1:270f:1:0
 kabel eins
 p:Unitymedia
-014b:ffff0000:0001:0085:1:0
-Sky Select 9
-p:SKY
 2f4b:ffff0000:00a1:270f:1:0
 Super RTL
 p:Unitymedia
-2f4c:ffff0000:00bf:270f:1:0
-SPORT1
-p:Unitymedia
 2f4d:ffff0000:00a1:270f:1:0
 ntv
-p:Unitymedia,c:000251,c:010252,c:020256,c:030251
+p:Unitymedia
 5a4d:ffff0000:00e7:270f:1:0
 Deutsches Musik Fernsehen
-p:Unitymedia
-2f4e:ffff0000:00bf:270f:1:0
-WELT
-p:Unitymedia
-2f4f:ffff0000:00bf:270f:1:0
-Tele 5
 p:Unitymedia
 5a4f:ffff0000:00e7:270f:1:0
 N24 Doku
 p:Unitymedia
+5a50:ffff0000:00e7:270f:1:0
+Fox Serie
+p:Unitymedia
 2f51:ffff0000:00a1:270f:1:0
 ProSieben MAXX
-p:Unitymedia,c:000265,c:010266,c:02026a,c:030265
-3351:ffff0000:00fb:270f:1:0
-Videothek
 p:Unitymedia
-ac51:ffff0000:01ff:270f:1:0
-Pro TV International
-p:Unitymedia
-ac55:ffff0000:00f1:270f:1:0
-CMC
+3352:ffff0000:0083:270f:1:0
+CGTN Documentary
 p:Unitymedia
 5656:ffff0000:00dd:270f:1:0
 Telebom / Tele Dom
@@ -619,10 +463,7 @@ itvn
 p:Unitymedia,C:0000
 5658:ffff0000:00dd:270f:1:0
 Kanal 7
-p:Unitymedia,c:00021f,c:010220,c:03021f,C:1850,C:1838,C:1835,C:1831,C:1722,C:098e
-ac58:ffff0000:01ff:270f:1:0
-OCKO
-p:Unitymedia
+p:Unitymedia,C:0000
 565a:ffff0000:00dd:270f:1:0
 Rai Uno
 p:Unitymedia,C:0000
@@ -635,27 +476,33 @@ p:Unitymedia,C:0000
 565d:ffff0000:00dd:270f:1:0
 SHOW TURK
 p:Unitymedia,C:0000
-2b5e:ffff0000:00bf:270f:1:0
-Disney SD
-p:Unitymedia
-565f:ffff0000:00dd:270f:1:0
-CNN Türk
-p:Unitymedia
-2b60:ffff0000:00bf:270f:1:0
-nick/MTV+
+a85f:ffff0000:01af:270f:1:0
+Al Jazeera
 p:Unitymedia
 5660:ffff0000:00dd:270f:1:0
 Channel One Russia
-p:Unitymedia
-2b63:ffff0000:00bf:270f:1:0
+p:Unitymedia,C:0000
+a860:ffff0000:01af:270f:1:0
 EUROSPORT 1
 p:Unitymedia
-2b65:ffff0000:00bf:270f:1:0
+a861:ffff0000:01af:270f:1:0
 RTL Living
-p:Unitymedia,C:0000
+p:Unitymedia
+a862:ffff0000:01af:270f:1:0
+SPORT1
+p:Unitymedia
+a863:ffff0000:01af:270f:1:0
+WELT
+p:Unitymedia
+6264:ffff0000:00fb:270f:1:0
+Vodafone TV
+p:Unitymedia
+a864:ffff0000:01af:270f:1:0
+Tele 5
+p:Unitymedia
 6d66:ffff0000:0437:0066:1:0
 ZDF
-p:ZDFvision,c:00006e,c:020082,c:03006e,c:04007d
+p:ZDFvision
 5667:ffff0000:00dd:270f:1:0
 euronews (D)
 p:Unitymedia
@@ -668,171 +515,168 @@ p:ZDFvision
 6d6b:ffff0000:0437:0066:1:0
 ZDFinfo
 p:ZDFvision
-526d:ffff0000:00d3:270f:1:0
-Fix&Foxi
-p:Unitymedia
 566e:ffff0000:00dd:270f:1:0
-Welt der Wunder
+VOXup
 p:Unitymedia
 6d6e:ffff0000:0437:0066:1:0
 zdf_neo
 p:ZDFvision
-526f:ffff0000:00d3:270f:1:0
-Nicktoons
+5670:ffff0000:00dd:270f:1:0
+SYFY
 p:Unitymedia
-566f:ffff0000:00dd:270f:1:0
-Discovery Channel
+5671:ffff0000:00dd:270f:1:0
+SR Fernsehen
 p:Unitymedia
-5271:ffff0000:00d3:270f:1:0
-BabyTV
+5672:ffff0000:00dd:270f:1:0
+Radio Bremen TV
 p:Unitymedia
-5272:ffff0000:00d3:270f:1:0
-Nick Jr.
+a476:ffff0000:01a5:270f:1:0
+Disney SD
 p:Unitymedia
-5275:ffff0000:00d3:270f:1:0
-NatGeo Wild
+a477:ffff0000:01a5:270f:1:0
+BBC World News
 p:Unitymedia
-5276:ffff0000:00d3:270f:1:0
-HOPE CHANNEL
+a478:ffff0000:01a5:270f:1:0
+Russia Today
 p:Unitymedia
-cb84:ffff0000:00dd:270f:1:0
-426 SID 0xcb84
-p:
-4e85:ffff0000:01e1:270f:1:0
-SonLife
-p:Unitymedia
-4e86:ffff0000:01e1:270f:1:0
+a479:ffff0000:01a5:270f:1:0
 CGTN
 p:Unitymedia
+a47a:ffff0000:01a5:270f:1:0
+DIE NEUE ZEIT TV
+p:Unitymedia
+a47b:ffff0000:01a5:270f:1:0
+iTVS
+p:Unitymedia
+cb84:ffff0000:00dd:270f:1:0
+Netflix
+p:Unitymedia
+008a:ffff0000:0001:0085:1:0
+Nick.Jr.
+p:SKY
 4e8c:ffff0000:00ab:270f:1:0
 Juwelo
-p:Unitymedia
-4e8f:ffff0000:010f:270f:1:0
-France 24 (in English)
-p:Unitymedia
-4e90:ffff0000:010f:270f:1:0
-Al Jazeera International
-p:Unitymedia
-4e93:ffff0000:010f:270f:1:0
-Russia Today
 p:Unitymedia
 4e94:ffff0000:00a1:270f:1:0
 SIXX
 p:Unitymedia
-7595:ffff0000:010f:270f:1:0
-Al Jazeera
-p:Unitymedia
-7596:ffff0000:010f:270f:1:0
-MBC Maghreb al Arabia
+0195:ffff0000:0004:0085:1:0
+TNT Film
+p:SKY
+ac96:ffff0000:01b9:270f:1:0
+Nick
 p:Unitymedia
 0197:ffff0000:0004:0085:1:0
 Sky Cinema Family
-p:SKY,C:0000
-4e97:ffff0000:010f:270f:1:0
-CCTV News
+p:SKY
+ac97:ffff0000:01b9:270f:1:0
+TRT Türk
 p:Unitymedia
-0198:ffff0000:0004:0085:1:0
-Sky 1
-p:SKY,C:0000
-4e9b:ffff0000:01d7:270f:1:0
-SONY CHANNEL
+ac98:ffff0000:01b9:270f:1:0
+Rai News 24
 p:Unitymedia,C:0000
+ac99:ffff0000:01b9:270f:1:0
+JSTV
+p:Unitymedia
+ac9a:ffff0000:01b9:270f:1:0
+Record Internacional
+p:Unitymedia
+ac9b:ffff0000:01b9:270f:1:0
+Habertürk
+p:Unitymedia
 4e9c:ffff0000:00e7:270f:1:0
 RTLplus
 p:Unitymedia
-4e9d:ffff0000:00d3:270f:1:0
-ZEE.ONE
-p:Unitymedia
-759d:ffff0000:010f:270f:1:0
-TV Silesia
-p:Unitymedia
-759e:ffff0000:010f:270f:1:0
-Antenna TV (Ant 1)
-p:Unitymedia
-759f:ffff0000:01cd:270f:1:0
-ERT World
-p:Unitymedia
 75a0:ffff0000:00ab:270f:1:0
-HSE24 EXTRA
-p:Unitymedia
-75a1:ffff0000:01ff:270f:1:0
-Schnupperkanal
+HSE Extra
 p:Unitymedia
 75a2:ffff0000:00b5:270f:1:0
 Nitro
 p:Unitymedia
-75a3:ffff0000:00ab:270f:1:0
-ProSieben FUN
-p:Unitymedia,C:0000
-4aaa:ffff0000:010f:270f:1:0
-Deutsches Wetter Fernsehen
-p:Unitymedia,C:0000
-4aab:ffff0000:00bf:270f:1:0
-auto motor und sport channel
-p:Unitymedia,C:0000
-4aac:ffff0000:00bf:270f:1:0
-Animal Planet
-p:Unitymedia
 0dad:ffff0000:0003:0085:1:0
 GFD Service
 p:SKY
-4aad:ffff0000:00bf:270f:1:0
-eoTV
-p:Unitymedia
-71ad:ffff0000:01ff:270f:1:0
-Record Internacional
-p:Unitymedia,C:0000
 0dae:ffff0000:0004:0085:1:0
 SDMS Service 1
 p:SKY
 0daf:ffff0000:0004:0085:1:0
 SDMS Service 2
 p:SKY
-71af:ffff0000:01ff:270f:1:0
-Habertürk
-p:Unitymedia,C:0000
-71b1:ffff0000:01ff:270f:1:0
-KAZAKH TV
-p:Unitymedia,C:0000
-71b4:ffff0000:00d3:270f:1:0
-Astro TV
-p:Unitymedia
 71b6:ffff0000:00b5:270f:1:0
-Sat.1 Gold
+SAT.1 GOLD
+p:Unitymedia
+c3b6:ffff0000:01f5:270f:1:0
+Hayat TV
+p:Unitymedia,C:0000
+c3b7:ffff0000:01f5:270f:1:0
+Klan Kosova
+p:Unitymedia
+c3b8:ffff0000:01f5:270f:1:0
+Kohavision TV
+p:Unitymedia
+c3b9:ffff0000:01f5:270f:1:0
+Pink Extra
+p:Unitymedia
+c3ba:ffff0000:01f5:270f:1:0
+Pink Film
+p:Unitymedia
+c3bb:ffff0000:01f5:270f:1:0
+Pink FOLK
+p:Unitymedia
+c3bc:ffff0000:01f5:270f:1:0
+Pink Music
+p:Unitymedia
+c3bd:ffff0000:01f5:270f:1:0
+Pink Plus
+p:Unitymedia
+c3be:ffff0000:01f5:270f:1:0
+RTK1
+p:Unitymedia
+c3bf:ffff0000:01f5:270f:1:0
+RTV21
+p:Unitymedia
+98c0:ffff0000:0187:270f:1:0
+Al Jazeera International
+p:Unitymedia
+c3c0:ffff0000:01f5:270f:1:0
+TV Crne Gore Sat
+p:Unitymedia
+98c2:ffff0000:0187:270f:1:0
+Home & Garden TV
+p:Unitymedia
+98c3:ffff0000:0187:270f:1:0
+TNT Serie
+p:Unitymedia
+98c4:ffff0000:0187:270f:1:0
+TVN 24
 p:Unitymedia
 46c5:ffff0000:00b5:270f:1:0
 kabel eins Doku
 p:Unitymedia
+98c5:ffff0000:0187:270f:1:0
+TLC
+p:Unitymedia
 46c6:ffff0000:00b5:270f:1:0
 MTV
 p:Unitymedia
-6dc8:ffff0000:00d3:270f:1:0
-France 24 (en francais)
+46c7:ffff0000:00b5:270f:1:0
+France 24 (in English)
 p:Unitymedia
-6dc9:ffff0000:00d3:270f:1:0
-France 2
+46c8:ffff0000:00b5:270f:1:0
+National Geographic
 p:Unitymedia
 6dca:ffff0000:044d:a401:1:0
 Das Erste
 p:ARD
-6dca:ffff0000:00d3:270f:1:0
-France 3
-p:Unitymedia
 6dcb:ffff0000:044d:a401:1:0
 BR Fernsehen Süd
 p:ARD
-6dcb:ffff0000:00d3:270f:1:0
-France 5
-p:Unitymedia
 6dcc:ffff0000:044d:a401:1:0
 hr-fernsehen
 p:ARD
 6dce:ffff0000:044d:a401:1:0
 BR Fernsehen Nord
 p:ARD
-6dce:ffff0000:01ff:270f:1:0
-Ginx TV
-p:Unitymedia,C:0000
 6dcf:ffff0000:044d:a401:1:0
 WDR Köln
 p:ARD
@@ -840,104 +684,86 @@ p:ARD
 SWR Fernsehen BW
 p:ARD
 42d8:ffff0000:00ab:270f:1:0
-Servus TV
+ServusTV
 p:Unitymedia
 42dc:ffff0000:00ab:270f:1:0
-HSE24 TREND
+HSE Trend
 p:Unitymedia
-00dd:ffff0000:0003:0085:1:0
-Sky Sport 1
-p:SKY,C:0000
 42dd:ffff0000:00ab:270f:1:0
-QVC2
+QVC ZWEI
 p:Unitymedia
-69dd:ffff0000:010f:270f:1:0
-DIE NEUE ZEIT TV
-p:Unitymedia
-00de:ffff0000:0003:0085:1:0
-Sky Sport 2
-p:SKY
+e6dd:ffff0000:024f:270f:1:0
+Balkanika Music Television
+p:Unitymedia,C:0000
 69de:ffff0000:00ab:270f:1:0
 DELUXE MUSIC
 p:Unitymedia
-00df:ffff0000:0004:0085:1:0
-Sky Sport Bundesliga 1
-p:SKY,C:0000
+e6de:ffff0000:024f:270f:1:0
+BN TV
+p:Unitymedia,C:0000
 42df:ffff0000:00ab:270f:1:0
 RiC
 p:Unitymedia
-69df:ffff0000:00f1:270f:1:0
-TLC
-p:Unitymedia
+e6df:ffff0000:024f:270f:1:0
+CMC
+p:Unitymedia,C:0000
 42e0:ffff0000:00ab:270f:1:0
 BVN
+p:Unitymedia
+e6e0:ffff0000:024f:270f:1:0
+DM SAT
 p:Unitymedia,C:0000
 42e1:ffff0000:00ab:270f:1:0
-SparhandyTV
+Handystar
 p:Unitymedia
-bbe5:ffff0000:01e1:270f:1:0
-NTV Mir
+e6e1:ffff0000:024f:270f:1:0
+Fashion TV
+p:Unitymedia,C:0000
+42e2:ffff0000:00ab:270f:1:0
+SonLife
 p:Unitymedia
-bbe7:ffff0000:01e1:270f:1:0
-SR Fernsehen
+e6e2:ffff0000:024f:270f:1:0
+HRT TV 1
+p:Unitymedia,C:0000
+42e3:ffff0000:00ab:270f:1:0
+Rai Storia
 p:Unitymedia
-bbe8:ffff0000:01e1:270f:1:0
-Radio Bremen TV
+e6e3:ffff0000:024f:270f:1:0
+Motorvision
+p:Unitymedia,C:0000
+42e4:ffff0000:00ab:270f:1:0
+Mediaset
+p:Unitymedia
+e6e4:ffff0000:024f:270f:1:0
+RTL Crime
+p:Unitymedia
+42e5:ffff0000:00ab:270f:1:0
+ERT World
+p:Unitymedia
+e6e5:ffff0000:024f:270f:1:0
+RTS Sat
+p:Unitymedia
+e6e6:ffff0000:024f:270f:1:0
+Spiegel TV Wissen
+p:Unitymedia
+e6e7:ffff0000:024f:270f:1:0
+Nick.Jr.
 p:Unitymedia
 69eb:ffff0000:0097:270f:1:0
 k-tv
 p:Unitymedia
-69ec:ffff0000:010f:270f:1:0
-RTL Crime
-p:Unitymedia
-69ed:ffff0000:010f:270f:1:0
-RTL Passion
-p:Unitymedia
-03f5:ffff0000:0004:0085:1:0
-National Geographic
+e2fd:ffff0000:0245:270f:1:0
+Silverline Movie Channel
 p:Unitymedia,C:0000
-65f6:ffff0000:01d7:270f:1:0
-JSTV
+e2fe:ffff0000:0245:270f:1:0
+ATV Avrupa
 p:Unitymedia
-03f8:ffff0000:0001:0085:1:0
-Fox Serie
-p:Unitymedia
-65fa:ffff0000:01cd:270f:1:0
-Balkanika Music Television
-p:Unitymedia,C:0000
-00fb:ffff0000:0002:0085:1:0
-Sky Select 1
-p:SKY
-65fb:ffff0000:01cd:270f:1:0
-HRT TV 1
-p:Unitymedia,C:0000
-65fc:ffff0000:01cd:270f:1:0
-Pink Plus
-p:Unitymedia,C:0000
-65fd:ffff0000:01cd:270f:1:0
-Pink Extra
-p:Unitymedia,C:0000
-3afe:ffff0000:0097:270f:1:0
-Extreme Sports
-p:Unitymedia
-65fe:ffff0000:01cd:270f:1:0
-Hayat TV
-p:Unitymedia
-65ff:ffff0000:01cd:270f:1:0
-Pink Music
-p:Unitymedia
-6601:ffff0000:01cd:270f:2:0
-HRT HR1
-p:Unitymedia
-6602:ffff0000:01cd:270f:2:0
-Pink Radio
+e2ff:ffff0000:0245:270f:1:0
+France 4
 p:Unitymedia
 6f03:ffff0000:044d:a401:2:0
 hr1
 p:ARD HR
-6604:ffff0000:01d7:270f:2:0
-Slow Türk
-p:Unitymedia
 6f04:ffff0000:044d:a401:2:0
 hr2
 p:ARD HR
@@ -953,9 +779,6 @@ p:ARD HR
 6f08:ffff0000:044d:a401:2:0
 hr-iNFO
 p:ARD HR
-660a:ffff0000:01e1:270f:2:0
-Klassik Radio
-p:Unitymedia
 6f0c:ffff0000:0431:a401:2:0
 MDR SACHSEN DD
 p:ARD MDR
@@ -963,7 +786,7 @@ p:ARD MDR
 MDR S-ANHALT MD
 p:ARD MDR
 6f0e:ffff0000:0431:a401:2:0
-MDR THÜRINGEN EF
+MDR THÜR Mitte-W
 p:ARD MDR
 6f0f:ffff0000:0431:a401:2:0
 MDR KULTUR
@@ -1026,13 +849,13 @@ p:ARD RB
 Inforadio
 p:ARD rbb
 6f25:ffff0000:0431:a401:2:0
-Kulturradio
+rbbKultur
 p:ARD rbb
 6f26:ffff0000:0431:a401:2:0
 Antenne Brandenburg
 p:ARD rbb
 6f27:ffff0000:0431:a401:2:0
-radioBERLIN 88,8
+rbb 88.8
 p:ARD rbb
 6f28:ffff0000:0431:a401:2:0
 radioeins
@@ -1055,27 +878,15 @@ p:ARD SR
 6f2f:ffff0000:044d:a401:2:0
 SR 3 Saarlandwelle
 p:ARD SR
-5e31:ffff0000:00f1:270f:2:0
-JAM FM
-p:Unitymedia
 6f31:ffff0000:0431:a401:2:0
 SWR1 BW
 p:ARD SWR
-5e32:ffff0000:00f1:270f:2:0
-Radio Paloma
-p:Unitymedia
 6f32:ffff0000:0431:a401:2:0
 SWR1 RP
 p:ARD SWR
-5e33:ffff0000:00f1:270f:2:0
-RADIO BOB!
-p:Unitymedia
 6f33:ffff0000:0431:a401:2:0
 SWR2
 p:ARD SWR
-5e34:ffff0000:01d7:270f:2:0
-Radio ZET
-p:Unitymedia,C:0000
 6f34:ffff0000:0431:a401:2:0
 SWR3
 p:ARD SWR
@@ -1091,9 +902,6 @@ p:ARD SWR
 6f38:ffff0000:0431:a401:2:0
 SWR Aktuell
 p:ARD SWR
-5e39:ffff0000:00f1:270f:2:0
-radio B2
-p:Unitymedia
 6f3b:ffff0000:044d:a401:2:0
 1LIVE
 p:ARD WDR
@@ -1110,7 +918,7 @@ p:ARD WDR
 WDR 5
 p:ARD WDR
 6f40:ffff0000:044d:a401:2:0
-WDRcosmo
+COSMO
 p:ARD WDR
 3341:ffff0000:0083:270f:2:0
 Rock Hymnen
@@ -1122,10 +930,13 @@ p:ARD WDR
 Headbangers
 p:Unitymedia - STINGRAY MUSIC
 6f42:ffff0000:044d:a401:2:0
-KIRAKA
+Die Maus
 p:ARD WDR
 3343:ffff0000:0083:270f:2:0
 The Alternative
+p:Unitymedia - STINGRAY MUSIC
+6243:ffff0000:00fb:270f:2:0
+Klassik
 p:Unitymedia - STINGRAY MUSIC
 6f43:ffff0000:044d:a401:2:0
 WDR Event
@@ -1133,120 +944,162 @@ p:ARD WDR
 3344:ffff0000:0083:270f:2:0
 Dancefloor Fillers
 p:Unitymedia - STINGRAY MUSIC
+6244:ffff0000:00fb:270f:2:0
+Klassik Sinfonie
+p:Unitymedia - STINGRAY MUSIC
 3345:ffff0000:0083:270f:2:0
 Bass Breaks & Beats
+p:Unitymedia - STINGRAY MUSIC
+6245:ffff0000:00fb:270f:2:0
+2000er
 p:Unitymedia - STINGRAY MUSIC
 3346:ffff0000:0083:270f:2:0
 Chillout
 p:Unitymedia - STINGRAY MUSIC
+6246:ffff0000:00fb:270f:2:0
+Hot Country
+p:Unitymedia - STINGRAY MUSIC
 3347:ffff0000:0083:270f:2:0
 Sommer Hits
+p:Unitymedia - STINGRAY MUSIC
+6247:ffff0000:00fb:270f:2:0
+Kinder
 p:Unitymedia - STINGRAY MUSIC
 3348:ffff0000:0083:270f:2:0
 All Day Party
 p:Unitymedia - STINGRAY MUSIC
+6248:ffff0000:00fb:270f:2:0
+Drive
+p:Unitymedia - STINGRAY MUSIC
 3349:ffff0000:0083:270f:2:0
 Kuschelsongs
+p:Unitymedia - STINGRAY MUSIC
+6249:ffff0000:00fb:270f:2:0
+New Age
 p:Unitymedia - STINGRAY MUSIC
 334a:ffff0000:0083:270f:2:0
 Groove (Disco & Funk)
 p:Unitymedia - STINGRAY MUSIC
 5a4a:ffff0000:00e7:270f:2:0
-Radyo Metropol
+Metropol FM
 p:Unitymedia
+624a:ffff0000:00fb:270f:2:0
+Rewind - 80er & 90er
+p:Unitymedia - STINGRAY MUSIC
 334b:ffff0000:0083:270f:2:0
 Blues
+p:Unitymedia - STINGRAY MUSIC
+624b:ffff0000:00fb:270f:2:0
+Total Hits Frankreich
 p:Unitymedia - STINGRAY MUSIC
 334c:ffff0000:0083:270f:2:0
 R'n'B & Soul Classic
 p:Unitymedia - STINGRAY MUSIC
+624c:ffff0000:00fb:270f:2:0
+Total Hits Russland
+p:Unitymedia - STINGRAY MUSIC
 334d:ffff0000:0083:270f:2:0
 Hip Hop
+p:Unitymedia - STINGRAY MUSIC
+624d:ffff0000:00fb:270f:2:0
+Urban
 p:Unitymedia - STINGRAY MUSIC
 334e:ffff0000:0083:270f:2:0
 Reggae
 p:Unitymedia - STINGRAY MUSIC
+624e:ffff0000:00fb:270f:2:0
+Schlager
+p:Unitymedia - STINGRAY MUSIC
 334f:ffff0000:0083:270f:2:0
 Independent Classics
+p:Unitymedia - STINGRAY MUSIC
+624f:ffff0000:00fb:270f:2:0
+Total Hits Deutschland
 p:Unitymedia - STINGRAY MUSIC
 3350:ffff0000:0083:270f:2:0
 Stingray Special
 p:Unitymedia - STINGRAY MUSIC
-ac64:ffff0000:01ff:270f:2:0
+6250:ffff0000:00fb:270f:2:0
+Total Hits Italien
+p:Unitymedia - STINGRAY MUSIC
+5a51:ffff0000:00e7:270f:2:0
+ROCK ANTENNE
+p:Unitymedia
+6251:ffff0000:00fb:270f:2:0
+Heavy Metal
+p:Unitymedia - STINGRAY MUSIC
+6252:ffff0000:00fb:270f:2:0
+Bollywood Hits
+p:Unitymedia - STINGRAY MUSIC
+6253:ffff0000:00fb:270f:2:0
+JAM FM
+p:Unitymedia
+6254:ffff0000:00fb:270f:2:0
+Radio Paloma
+p:Unitymedia
+6255:ffff0000:00fb:270f:2:0
+Radio ZET
+p:Unitymedia
+6256:ffff0000:00fb:270f:2:0
+Schlager Radio
+p:Unitymedia
+6257:ffff0000:00fb:270f:2:0
+Slow Türk
+p:Unitymedia
+6258:ffff0000:00fb:270f:2:0
+Klassik Radio
+p:Unitymedia
+d358:ffff0000:021d:270f:2:0
+ANTENNE BAYERN
+p:Unitymedia
+6259:ffff0000:00fb:270f:2:0
 NL-Radio 1
 p:Unitymedia
-ac65:ffff0000:01ff:270f:2:0
+625a:ffff0000:00fb:270f:2:0
 NL-Radio 5
+p:Unitymedia
+625b:ffff0000:00fb:270f:2:0
+Radio Exterior
+p:Unitymedia
+625c:ffff0000:00fb:270f:2:0
+UNSERDING
+p:Unitymedia
+625d:ffff0000:00fb:270f:2:0
+Bremen Next
+p:Unitymedia
+625e:ffff0000:00fb:270f:2:0
+80s80s
+p:Unitymedia
+625f:ffff0000:00fb:270f:2:0
+Radio 21
+p:Unitymedia
+6260:ffff0000:00fb:270f:2:0
+AntenneSaar
+p:ARD SR
+6261:ffff0000:00fb:270f:2:0
+WDR 2 Ruhrgebiet
+p:ARD WDR
+d361:ffff0000:021d:270f:2:0
+RADIO BOB!
+p:Unitymedia
+6262:ffff0000:00fb:270f:2:0
+WDR 2 Rhein und Ruhr
+p:ARD WDR
+6263:ffff0000:00fb:270f:2:0
+DRadio DokDeb
 p:Unitymedia
 5669:ffff0000:00dd:270f:2:0
 Rai Radio 1
-p:Unitymedia
+p:Unitymedia,C:0000
 6d6c:ffff0000:0437:0066:2:0
 Dlf Kultur
 p:ZDFvision
 6d6d:ffff0000:0437:0066:2:0
 Dlf
 p:ZDFvision
-2b71:ffff0000:00bf:270f:2:0
-Klassik
-p:Unitymedia - STINGRAY MUSIC,C:0000
 6d71:ffff0000:0437:0066:2:0
 Dlf Nova
 p:ZDFvision
-2b72:ffff0000:00bf:270f:2:0
-Klassik Sinfonie
-p:Unitymedia - STINGRAY MUSIC,C:0000
-2b73:ffff0000:00bf:270f:2:0
-2000er
-p:Unitymedia - STINGRAY MUSIC,C:0000
-2b74:ffff0000:00bf:270f:2:0
-Hot Country
-p:Unitymedia - STINGRAY MUSIC,C:0000
-2b75:ffff0000:00bf:270f:2:0
-Kinder
-p:Unitymedia - STINGRAY MUSIC,C:0000
-2b76:ffff0000:00bf:270f:2:0
-Drive
-p:Unitymedia - STINGRAY MUSIC,C:0000
-2b77:ffff0000:00bf:270f:2:0
-New Age
-p:Unitymedia - STINGRAY MUSIC,C:0000
-2b78:ffff0000:00bf:270f:2:0
-Rewind - 80er & 90er
-p:Unitymedia - STINGRAY MUSIC,C:0000
-2b79:ffff0000:00bf:270f:2:0
-Total Hits Frankreich
-p:Unitymedia - STINGRAY MUSIC,C:0000
-2b7a:ffff0000:00bf:270f:2:0
-Total Hits Russland
-p:Unitymedia - STINGRAY MUSIC,C:0000
-ac7a:ffff0000:01e1:270f:2:0
-Radio Exterior
-p:Unitymedia,C:0000
-2b7b:ffff0000:00bf:270f:2:0
-Urban
-p:Unitymedia - STINGRAY MUSIC,C:0000
-2b7c:ffff0000:00bf:270f:2:0
-Schlager
-p:Unitymedia - STINGRAY MUSIC,C:0000
-2b7d:ffff0000:00bf:270f:2:0
-Total Hits Deutschland
-p:Unitymedia - STINGRAY MUSIC,C:0000
-2b7e:ffff0000:00bf:270f:2:0
-Total Hits Italien
-p:Unitymedia - STINGRAY MUSIC,C:0000
-2b7f:ffff0000:00bf:270f:2:0
-Heavy Metal
-p:Unitymedia - STINGRAY MUSIC,C:0000
-ac7f:ffff0000:01e1:270f:2:0
-Radio 21 Kosovo
-p:Unitymedia
-2b80:ffff0000:00bf:270f:2:0
-Bollywood Hits
-p:Unitymedia - STINGRAY MUSIC,C:0000
-ac80:ffff0000:01e1:270f:2:0
-Radio Dukagjini
-p:Unitymedia
 2b81:ffff0000:008d:270f:2:0
 Turk Muzigi
 p:Unitymedia - STINGRAY MUSIC,C:0000
@@ -1258,28 +1111,28 @@ Volksmusik
 p:Unitymedia - STINGRAY MUSIC,C:0000
 2b84:ffff0000:008d:270f:2:0
 Cool Jazz
-p:Unitymedia - STINGRAY MUSIC,C:0000
+p:Unitymedia - STINGRAY MUSIC
 2b85:ffff0000:008d:270f:2:0
 Jazz Classics
-p:Unitymedia - STINGRAY MUSIC,C:0000
+p:Unitymedia - STINGRAY MUSIC
 2b86:ffff0000:008d:270f:2:0
 Cocktail Lounge
-p:Unitymedia - STINGRAY MUSIC,C:0000
+p:Unitymedia - STINGRAY MUSIC
 2b87:ffff0000:008d:270f:2:0
 Easy Listening Charts
-p:Unitymedia - STINGRAY MUSIC,C:0000
+p:Unitymedia - STINGRAY MUSIC
 2b88:ffff0000:008d:270f:2:0
 Arabisch
-p:Unitymedia - STINGRAY MUSIC,C:0000
+p:Unitymedia - STINGRAY MUSIC
 2b89:ffff0000:008d:270f:2:0
 Revival - 60er & 70er
-p:Unitymedia - STINGRAY MUSIC,C:0000
+p:Unitymedia - STINGRAY MUSIC
 2b8a:ffff0000:008d:270f:2:0
 Classic Calm
-p:Unitymedia - STINGRAY MUSIC,C:0000
+p:Unitymedia - STINGRAY MUSIC
 2b8b:ffff0000:008d:270f:2:0
 Rock 'n' Roll
-p:Unitymedia - STINGRAY MUSIC,C:0000
+p:Unitymedia - STINGRAY MUSIC
 2b8c:ffff0000:008d:270f:2:0
 Total Hits Polen
 p:Unitymedia - STINGRAY MUSIC
@@ -1295,35 +1148,26 @@ p:Unitymedia - STINGRAY MUSIC
 2b90:ffff0000:008d:270f:2:0
 Classic Rock
 p:Unitymedia - STINGRAY MUSIC
-c7a0:ffff0000:01ff:270f:2:0
-80s80s
-p:Unitymedia
-c7a1:ffff0000:01ff:270f:2:0
-Radio 21
-p:Unitymedia
-c7a2:ffff0000:01ff:270f:2:0
-AntenneSaar
-p:ARD SR
-c7a4:ffff0000:01ff:270f:2:0
-WDR 2 Ruhrgebiet
-p:ARD WDR
-c7a5:ffff0000:01ff:270f:2:0
-WDR 2 Rhein und Ruhr
-p:ARD WDR
 46c0:ffff0000:00b5:270f:2:0
 ERF Plus
 p:Unitymedia
 46c1:ffff0000:00b5:270f:2:0
 Radio Horeb
 p:Unitymedia
+c3c1:ffff0000:01f5:270f:2:0
+Pink Radio
+p:Unitymedia
 46c2:ffff0000:00b5:270f:2:0
 Radio Sunshine Live
 p:Unitymedia
-bbe9:ffff0000:01e1:270f:2:0
-UnserDing
+c3c2:ffff0000:01f5:270f:2:0
+Radio 21 Kosovo
 p:Unitymedia
-bbea:ffff0000:01e1:270f:2:0
-Bremen NEXT
+e6e8:ffff0000:024f:270f:2:0
+HRT HR1
+p:Unitymedia
+e6e9:ffff0000:024f:270f:2:0
+Radio Dukagjini
 p:Unitymedia
 6ef0:ffff0000:044d:a401:2:0
 Bayern 1
@@ -1341,52 +1185,55 @@ p:ARD BR
 B5 aktuell
 p:ARD BR
 6ef5:ffff0000:044d:a401:2:0
-BAYERN plus
+BR Schlager
 p:ARD BR
 6ef6:ffff0000:044d:a401:2:0
 PULS
 p:ARD BR
-65f7:ffff0000:01d7:270f:2:0
-JSTV Radio Japan
-p:Unitymedia
 6ef7:ffff0000:044d:a401:2:0
 BR Heimat
 p:ARD BR
 6ef8:ffff0000:044d:a401:2:0
 B5 plus
 p:ARD BR
-0f07:ffff0000:0002:0085:12:0
-Humax PR-HD2000C
-p:SKY
-0f8c:ffff0000:0002:0085:12:0
+0f8c:ffff0000:0003:0085:12:0
 Humax PR-HD3000C
 p:betaresearch
-0f9a:ffff0000:0002:0085:12:0
+0f9a:ffff0000:0003:0085:12:0
 Pace TDC 866 NSDX
 p:SKY
-0fa8:ffff0000:0002:0085:12:0
-Humax ESD 160C
-p:BetaDigital
-0fa9:ffff0000:0002:0085:12:0
-Humax ESD 160C BL2
-p:BetaDigital
-0dab:ffff0000:0002:0085:12:0
+0dab:ffff0000:0003:0085:12:0
 STB channel config.
 p:betaresearch
-0500:ffff0000:000d:0085:25:0
-Eurosport360 HD 2
+0101:ffff0000:0001:0085:25:0
+Sky Sport Bundesliga 10 HD
 p:SKY
-050a:ffff0000:000c:0085:25:0
-Eurosport360 HD 3
+0102:ffff0000:0001:0085:25:0
+Sky Sport 11 HD
 p:SKY
+0103:ffff0000:0001:0085:25:0
+Sky Sport Austria 4 HD
+p:SKY
+0104:ffff0000:0001:0085:25:0
+Eurosport360HD 9
+p:SKY
+000b:ffff0000:000c:0085:25:0
+Sky Cinema Thriller HD
+p:SKY,C:0000
 010b:ffff0000:0006:0085:25:0
 Sky Sport Bundesliga 2 HD
 p:SKY
 010c:ffff0000:0006:0085:25:0
 Sky Sport 3 HD
 p:SKY
+000d:ffff0000:0003:0085:25:0
+Sky Crime HD
+p:SKY,C:0000
+000e:ffff0000:0003:0085:25:0
+Sky Comedy HD
+p:SKY,C:0000
 010e:ffff0000:0006:0085:25:0
-Eurosport360 HD 1 (S)
+Eurosport360HD 1
 p:SKY
 df0e:ffff0000:023b:270f:25:0
 QVC Style HD
@@ -1397,6 +1244,9 @@ p:Unitymedia
 df10:ffff0000:023b:270f:25:0
 SR Fernsehen HD
 p:Unitymedia
+0011:ffff0000:0004:0085:25:0
+Sky Sport F1 HD
+p:SKY,C:0000
 df11:ffff0000:023b:270f:25:0
 MDR Thüringen HD
 p:Unitymedia
@@ -1409,24 +1259,21 @@ p:Unitymedia
 0116:ffff0000:000d:0085:25:0
 Sky Sport 4 HD
 p:SKY
-b416:ffff0000:0187:270f:25:0
-RTL Passion HD
-p:Unitymedia
+0017:ffff0000:0001:0085:25:0
+Sky Krimi HD
+p:SKY
 b417:ffff0000:01c3:270f:25:0
 DELUXE MUSIC HD
-p:Unitymedia,C:0000
+p:Unitymedia
 0118:ffff0000:000d:0085:25:0
-Eurosport360 HD 2 (S)
+Eurosport360HD 2
 p:SKY
 b418:ffff0000:01c3:270f:25:0
-QVC2 HD
+QVC ZWEI HD
 p:Unitymedia
 6219:ffff0000:019b:270f:25:0
 13th Street HD
 p:Unitymedia
-621a:ffff0000:01b9:270f:25:0
-Auto Motor und Sport TV HD
-p:Unitymedia,C:0000
 621b:ffff0000:01b9:270f:25:0
 Spiegel TV Wissen HD 
 p:Unitymedia,C:0000
@@ -1437,7 +1284,7 @@ p:SKY
 Sky Sport 5 HD
 p:SKY
 0122:ffff0000:000c:0085:25:0
-Eurosport360 HD 3 (S)
+Eurosport360HD 3
 p:SKY
 db25:ffff0000:0231:270f:25:0
 Sonnenklar TV HD
@@ -1446,67 +1293,136 @@ db26:ffff0000:0231:270f:25:0
 1-2-3.TV HD
 p:Unitymedia
 db27:ffff0000:0231:270f:25:0
-A&E HD
-p:Unitymedia,C:0000
+Crime + Investigation HD
+p:Unitymedia
 db28:ffff0000:0231:270f:25:0
 Eurosport1 HD
 p:Unitymedia
+0129:ffff0000:0001:0085:25:0
+Sky Sport Bundesliga 5 HD
+p:SKY
 db29:ffff0000:0231:270f:25:0
 hr-fernsehen HD
 p:Unitymedia
+012a:ffff0000:0001:0085:25:0
+Sky Sport 6 HD
+p:SKY
 db2a:ffff0000:0231:270f:25:0
 SWR BW HD
 p:Unitymedia
+db2b:ffff0000:0231:270f:25:0
+TNT Serie HD
+p:Unitymedia
+012c:ffff0000:0001:0085:25:0
+Eurosport360HD 4
+p:SKY
 b02d:ffff0000:01c3:270f:25:0
-VIVA/COMEDY CENTRAL HD
-p:Unitymedia,C:0000
-b02e:ffff0000:01c3:270f:25:0
-Animal Planet HD
-p:Unitymedia,C:0000
-b02f:ffff0000:01c3:270f:25:0
-Juwelo TV HD
+COMEDY CENTRAL HD
 p:Unitymedia
+b030:ffff0000:01c3:270f:25:0
+Eurosport 2 HD
+p:Unitymedia
+0133:ffff0000:0004:0085:25:0
+Sky Sport Bundesliga 6 HD
+p:SKY
+b033:ffff0000:01c3:270f:25:0
+Fox HD
+p:Unitymedia
+0134:ffff0000:0004:0085:25:0
+Sky Sport 7 HD
+p:SKY
+b034:ffff0000:01c3:270f:25:0
+Mehr HD
+p:Unitymedia
+0136:ffff0000:0004:0085:25:0
+Eurosport360HD 5
+p:SKY
+013d:ffff0000:0003:0085:25:0
+Sky Sport Bundesliga 7 HD
+p:SKY
+013e:ffff0000:0003:0085:25:0
+Sky Sport 8 HD
+p:SKY
+0140:ffff0000:0003:0085:25:0
+Eurosport360HD 6
+p:SKY
 d743:ffff0000:023b:270f:25:0
-BR Fernsehen Süd HD
+BR Fernsehen Süd HD
 p:Unitymedia
+0144:ffff0000:0001:0085:25:0
+DAZN 1 Bar HD
+p:SKY
 ac45:ffff0000:0191:270f:25:0
 QVC HD
 p:Unitymedia
 ac46:ffff0000:0191:270f:25:0
-HSE24 HD
+HSE HD
 p:Unitymedia
-ac48:ffff0000:01af:270f:25:0
-PLANET HD
-p:Unitymedia
+0147:ffff0000:0003:0085:25:0
+Sky Sport Bundesliga 8 HD
+p:SKY
+0148:ffff0000:0003:0085:25:0
+Sky Sport 9 HD
+p:SKY
+0149:ffff0000:0003:0085:25:0
+Sky Sport Austria 2 HD
+p:SKY,C:0000
+014a:ffff0000:0003:0085:25:0
+Eurosport360HD 7
+p:SKY
 ac4a:ffff0000:01b9:270f:25:0
-nick/MTV+ HD
+Nick HD
 p:Unitymedia,C:0000
-ac4b:ffff0000:01b9:270f:25:0
-MOTORVISION TV HD
-p:Unitymedia
+ac4d:ffff0000:01b9:270f:25:0
+RTLplus HD
+p:Unitymedia,C:0000
 814e:ffff0000:014b:270f:25:0
-RTL2 HD
+RTLZWEI HD
 p:Unitymedia,C:0000
+014f:ffff0000:0004:0085:25:0
+DAZN 2 Bar HD
+p:SKY
 814f:ffff0000:014b:270f:25:0
 VOX HD
-p:Unitymedia,C:0000
+p:Unitymedia
+ac4f:ffff0000:01b9:270f:25:0
+Mehr HD
+p:Unitymedia
 8150:ffff0000:014b:270f:25:0
 Super RTL HD
 p:Unitymedia
+0151:ffff0000:0004:0085:25:0
+Sky Sport Bundesliga 9 HD
+p:SKY
 8151:ffff0000:014b:270f:25:0
 Nitro HD
 p:Unitymedia
-2f53:ffff0000:0079:270f:25:0
-Phoenix HD
+0152:ffff0000:0004:0085:25:0
+Sky Sport 10 HD
+p:SKY
+8152:ffff0000:014b:270f:25:0
+Mehr HD
 p:Unitymedia
+0153:ffff0000:0004:0085:25:0
+Sky Sport Austria 3 HD
+p:SKY
+2f53:ffff0000:0079:270f:25:0
+phoenix HD
+p:ARD
+8153:ffff0000:014b:270f:25:0
+eSPORTS1 HD
+p:Unitymedia
+0154:ffff0000:0004:0085:25:0
+Eurosport360HD 8
+p:SKY
+0155:ffff0000:0004:0085:25:0
+Eurosport 2 HD Xtra
+p:SKY
 d356:ffff0000:021d:270f:25:0
 RTL HD
 p:Unitymedia,C:0000
 d357:ffff0000:021d:270f:25:0
-Sat.1 HD
-p:Unitymedia
-0458:ffff0000:000d:0085:25:0
-NatGeo HD
+SAT.1 HD
 p:Unitymedia,C:0000
 2b5c:ffff0000:041b:a401:25:0
 Das Erste HD
@@ -1517,12 +1433,9 @@ p:Unitymedia
 a85e:ffff0000:01af:270f:25:0
 ZDFinfo HD
 p:ZDFvision
-0463:ffff0000:0006:0085:25:0
-TNT Serie HD
-p:Unitymedia
-0464:ffff0000:0006:0085:25:0
-Fox HD
-p:Unitymedia
+0065:ffff0000:0001:0085:25:0
+Universal TV HD
+p:SKY
 2b66:ffff0000:0437:0066:25:0
 ZDF HD
 p:ZDFvision
@@ -1537,69 +1450,87 @@ sixx HD
 p:Unitymedia,C:0000
 0069:ffff0000:000c:0085:25:0
 Sky Sport Bundesliga 1 HD
-p:SKY
+p:SKY,C:0000
 7d69:ffff0000:0141:270f:25:0
-ProSieben Maxx HD
+ProSieben MAXX HD
 p:Unitymedia,C:0000
 7d6a:ffff0000:0141:270f:25:0
-Sat.1 Gold HD
+SAT.1 GOLD HD
 p:Unitymedia
 006b:ffff0000:000d:0085:25:0
-Sky Cinema Hits HD
+Sky Cinema Best Of HD
 p:SKY,C:0000
+7d6b:ffff0000:0141:270f:25:0
+SAT.1 emotions HD
+p:Unitymedia
 006c:ffff0000:000c:0085:25:0
 Sky Sport News HD
 p:SKY
+7d6c:ffff0000:0141:270f:25:0
+NatGeo HD
+p:Unitymedia
 006e:ffff0000:000d:0085:25:0
-Sky Atlantic HD
-p:SKY,C:0000
+Sky Atlantic HD
+p:SKY
 006f:ffff0000:000d:0085:25:0
-Disney Cinemagic HD
-p:SKY,C:0000
+Sky Cinema Special HD
+p:SKY
 0070:ffff0000:000d:0085:25:0
-NatGeo HD (S)
-p:SKY,C:0000
+NatGeo HD
+p:SKY
 0072:ffff0000:000d:0085:25:0
 Sky Sport 2 HD
-p:SKY,C:0000
+p:SKY
 cf73:ffff0000:023b:270f:25:0
-NDR Niedersachsen HD
+NDR Niedersachsen HD
 p:Unitymedia
 0074:ffff0000:000d:0085:25:0
-Sky Cinema Action HD
-p:SKY,C:0000
+Sky Cinema Action HD
+p:SKY
 5274:ffff0000:019b:270f:25:0
 TNT Film HD
-p:Unitymedia
+p:Unitymedia,C:0000
+0075:ffff0000:0004:0085:25:0
+Sky Serien & Shows HD
+p:SKY
 a475:ffff0000:01a5:270f:25:0
-NatGeo Wild HD
+National Geographic Wild HD
 p:Unitymedia
 0076:ffff0000:0006:0085:25:0
-Nat Geo Wild HD
+National Geographic Wild HD
 p:SKY,C:0000
 007b:ffff0000:0006:0085:25:0
-TNT Serie HD (S)
-p:SKY
+TNT Serie HD
+p:SKY,C:0000
 007c:ffff0000:0006:0085:25:0
-Fox HD (S)
+Fox HD
+p:SKY,C:0000
+007e:ffff0000:0001:0085:25:0
+SYFY HD
+p:SKY
+007f:ffff0000:0001:0085:25:0
+13th Street HD
 p:SKY
 797f:ffff0000:01af:270f:25:0
 Romance TV HD
 p:Unitymedia,C:0000
 7980:ffff0000:01c3:270f:25:0
 DMAX HD
-p:Unitymedia,C:0000
+p:Unitymedia
 0081:ffff0000:0006:0085:25:0
 Sky Sport 1 HD
 p:SKY
 0082:ffff0000:0006:0085:25:0
-Discovery HD (S)
+Discovery HD
 p:SKY
 0083:ffff0000:0006:0085:25:0
-Sky Cinema HD
+Sky Cinema Premieren HD
+p:SKY
+0085:ffff0000:0001:0085:25:0
+Beate Uhse HD
 p:SKY
 a08d:ffff0000:019b:270f:25:0
-3Sat HD
+3sat HD
 p:Unitymedia
 a08e:ffff0000:01a5:270f:25:0
 ONE HD
@@ -1607,33 +1538,24 @@ p:Unitymedia
 a08f:ffff0000:0191:270f:25:0
 ZDF_neo HD
 p:Unitymedia
-a090:ffff0000:01b9:270f:25:0
-BBC HD
+a091:ffff0000:019b:270f:25:0
+ARD-alpha HD
 p:Unitymedia
-2b91:ffff0000:006f:270f:25:0
-KiKA HD
+a092:ffff0000:019b:270f:25:0
+GEO TV HD
 p:Unitymedia
-2b92:ffff0000:006f:270f:25:0
-UNIVERSAL TV  HD
-p:Unitymedia,C:0000
 0093:ffff0000:000d:0085:25:0
-Sky 1 HD
-p:SKY,C:0000
-2b93:ffff0000:006f:270f:25:0
-WDR Köln HD
-p:Unitymedia
+Sky One HD
+p:SKY
 4e96:ffff0000:019b:270f:25:0
 Sport1 HD
 p:Unitymedia,C:0000
-759c:ffff0000:01a5:270f:25:0
-CLASSICA HD
-p:Unitymedia
 c79d:ffff0000:0079:270f:25:0
 WELT HD
-p:Unitymedia
+p:Unitymedia,C:0000
 c79e:ffff0000:0079:270f:25:0
 ntv HD
-p:Unitymedia
+p:Unitymedia,C:0000
 c79f:ffff0000:0079:270f:25:0
 Bibel TV HD
 p:Unitymedia
@@ -1641,76 +1563,55 @@ p:Unitymedia
 Kinowelt TV HD
 p:Unitymedia
 9ca5:ffff0000:0191:270f:25:0
-AXN HD
-p:Unitymedia,C:0000
-9ca6:ffff0000:006f:270f:25:0
-Tele 5 HD
-p:Unitymedia,C:0000
-9ca7:ffff0000:006f:270f:25:0
-MTV HD
+SONY AXN HD
 p:Unitymedia,C:0000
 9ca8:ffff0000:0191:270f:25:0
-sportdigital HD
-p:Unitymedia,C:0000
+SPORTDIGITAL FUSSBALL HD
+p:Unitymedia
+9ca9:ffff0000:0191:270f:25:0
+SONY CHANNEL HD
+p:Unitymedia
 71b5:ffff0000:0191:270f:25:0
 ServusTV HD
 p:Unitymedia
-c3b5:ffff0000:006f:270f:25:0
-TLC HD
-p:Unitymedia,C:0000
 98bd:ffff0000:0187:270f:25:0
 kabeleinsclassics HD
-p:Unitymedia
-6dcf:ffff0000:01b9:270f:25:0
-Bon Gusto HD
 p:Unitymedia,C:0000
-6dd0:ffff0000:01a5:270f:25:0
-MTV Live HD
-p:Unitymedia
 94d5:ffff0000:0187:270f:25:0
-ProSieben Fun HD
+ProSieben FUN HD
 p:Unitymedia,C:0000
 94d6:ffff0000:01af:270f:25:0
 TNT Comedy HD
-p:Unitymedia
+p:Unitymedia,C:0000
 94d7:ffff0000:014b:270f:25:0
 RTL Crime HD
-p:Unitymedia
-94d8:ffff0000:01af:270f:25:0
-Lust Pur HD
 p:Unitymedia
 42d9:ffff0000:0079:270f:25:0
 arte HD
 p:Unitymedia
 42da:ffff0000:01a5:270f:25:0
 Sport1+ HD
-p:Unitymedia,C:0000
+p:Unitymedia
 69e7:ffff0000:0079:270f:25:0
 Disney HD
-p:Unitymedia
+p:Unitymedia,C:0000
 69ea:ffff0000:019b:270f:25:0
 SYFY HD
 p:Unitymedia
 e2f5:ffff0000:0245:270f:25:0
-Discovery HD
+Discovery Channel HD
 p:Unitymedia,C:0000
-04f6:ffff0000:0006:0085:25:0
-Eurosport360 HD 1
-p:SKY
 e2f6:ffff0000:0245:270f:25:0
-History HD
+The HISTORY Channel HD
 p:Unitymedia,C:0000
-e2f7:ffff0000:0245:270f:25:0
-E!Entertainment HD
-p:Unitymedia,C:0000
-e2f8:ffff0000:0245:270f:25:0
-Anixe HD
-p:Unitymedia
 e2f9:ffff0000:0245:270f:25:0
-HSE24 Extra HD
+HSE Extra HD
 p:Unitymedia
 e2fa:ffff0000:0245:270f:25:0
 rbb Berlin HD
+p:Unitymedia
+e2fb:ffff0000:0187:270f:25:0
+Radio Bremen TV HD
 p:Unitymedia
 0228:ffff0000:000c:0085:31:0
 Sky Sport Bundesliga UHD
@@ -1718,6 +1619,12 @@ p:SKY
 0229:ffff0000:000c:0085:31:0
 Sky Sport UHD
 p:SKY
+022a:ffff0000:000c:0085:31:0
+.
+p:SKY
+0001:ffff0000:0083:270f:100:0
+346 SID 0x01
+p:
 0f03:ffff0000:0001:0085:100:0
 386 SID 0xf03
 p:
@@ -1748,6 +1655,12 @@ p:
 4019:ffff0000:0083:270f:100:0
 346 SID 0x4019
 p:
+401a:ffff0000:0083:270f:100:0
+346 SID 0x401a
+p:
+cb20:ffff0000:0169:270f:100:0
+130 SID 0xcb20
+p:
 6222:ffff0000:00fb:270f:100:0
 610 SID 0x6222
 p:
@@ -1772,14 +1685,17 @@ p:
 6238:ffff0000:00fb:270f:100:0
 610 SID 0x6238
 p:
+6239:ffff0000:00fb:270f:100:0
+610 SID 0x6239
+p:
+623a:ffff0000:00fb:270f:100:0
+610 SID 0x623a
+p:
 3366:ffff0000:0083:270f:100:0
 346 SID 0x3366
 p:
 3368:ffff0000:0083:270f:100:0
 346 SID 0x3368
-p:
-3377:ffff0000:0083:270f:100:0
-346 SID 0x3377
 p:
 3378:ffff0000:0083:270f:100:0
 346 SID 0x3378
@@ -1817,6 +1733,9 @@ p:SKY
 0bc3:ffff0000:0083:270f:193:0
 KBW_DS_evol1
 p:UMKBW
+0bc5:ffff0000:0083:270f:193:0
+KBW_DS_evol3
+p:UMKBW
 0bc6:ffff0000:0083:270f:193:0
 KBW_DS_evol4
 p:UMKBW
@@ -1826,80 +1745,14 @@ p:UMKBW
 00c8:ffff0000:0003:0085:198:0
 BDL VoD
 p:SKY
-0106:ffff0000:0002:0085:211:0
-Sky Sport Bundesliga 2
+0159:ffff0000:0003:0085:211:0
+.
 p:SKY
-0107:ffff0000:0002:0085:211:0
-Sky Sport 3
+0163:ffff0000:0003:0085:211:0
+.
 p:SKY
-0110:ffff0000:0001:0085:211:0
-Sky Sport Bundesliga 3
-p:SKY
-0111:ffff0000:0001:0085:211:0
-Sky Sport 4
-p:SKY
-011a:ffff0000:0001:0085:211:0
-Sky Sport Bundesliga 4
-p:SKY
-011b:ffff0000:0001:0085:211:0
-Sky Sport 5
-p:SKY
-0124:ffff0000:0003:0085:211:0
-Sky Sport Bundesliga 5
-p:SKY
-0125:ffff0000:0003:0085:211:0
-Sky Sport 6
-p:SKY
-012e:ffff0000:0003:0085:211:0
-Sky Sport Bundesliga 6
-p:SKY
-012f:ffff0000:0003:0085:211:0
-Sky Sport 7
-p:SKY
-0138:ffff0000:0003:0085:211:0
-Sky Sport Bundesliga 7
-p:SKY
-0139:ffff0000:0003:0085:211:0
-Sky Sport 8
-p:SKY
-0142:ffff0000:0003:0085:211:0
-Sky Sport Bundesliga 8
-p:SKY
-0143:ffff0000:0003:0085:211:0
-Sky Sport 9
-p:SKY
-0144:ffff0000:0003:0085:211:0
-DAZN 1 Bar
-p:SKY
-014c:ffff0000:0001:0085:211:0
-Sky Sport Bundesliga 9
-p:SKY
-014d:ffff0000:0001:0085:211:0
-Sky Sport 10
-p:SKY
-014e:ffff0000:0001:0085:211:0
-Sky Select Event B
-p:SKY
-014f:ffff0000:0001:0085:211:0
-DAZN 2 Bar
-p:SKY
-0159:ffff0000:0002:0085:211:0
-Blue Movie 1
-p:SKY
-0163:ffff0000:0002:0085:211:0
-Blue Movie 2
-p:SKY
-016d:ffff0000:0002:0085:211:0
-Blue Movie 3
-p:SKY
-00fc:ffff0000:0002:0085:211:0
-Sky Sport Bundesliga 10
-p:SKY
-00fd:ffff0000:0002:0085:211:0
-Sky Sport 11
-p:SKY
-00fe:ffff0000:0002:0085:211:0
-Sky Select Event A
+016d:ffff0000:0003:0085:211:0
+.
 p:SKY
 end
-Edited with dreamboxEDIT 6.0.2.0 on 07Jan2019 17:50:33
+Edited with dreamboxEDIT 6.0.2.0 on 28Sep2021 13:45:33
