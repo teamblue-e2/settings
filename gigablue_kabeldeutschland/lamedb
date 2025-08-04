@@ -1,0 +1,1359 @@
+eDVB services /4/
+transponders
+ffff0000:0437:0000
+	c 450000:6900000:2:5:0:0:0
+/
+ffff0000:041b:0001
+	c 330000:6900000:2:5:0:0:0
+/
+ffff0000:0431:0001
+	c 458000:6900000:2:5:0:0:0
+/
+ffff0000:0437:0001
+	c 450000:6900000:2:5:0:0:0
+/
+ffff0000:044d:0001
+	c 338000:6900000:2:5:0:0:0
+/
+ffff0000:0001:0085
+	c 386000:6900000:2:5:0:0:0
+/
+ffff0000:0003:0085
+	c 362000:6900000:2:5:0:0:0
+/
+ffff0000:0004:0085
+	c 378000:6900000:2:5:0:0:0
+/
+ffff0000:0006:0085
+	c 522000:6900000:2:5:0:0:0
+/
+ffff0000:000c:0085
+	c 554000:6900000:2:5:0:0:0
+/
+ffff0000:2710:f001
+	c 466000:6900000:2:5:0:0:0
+/
+ffff0000:2712:f001
+	c 370000:6900000:2:5:0:0:0
+/
+ffff0000:2713:f001
+	c 538000:6900000:2:5:0:0:0
+/
+ffff0000:2715:f001
+	c 546000:6900000:2:5:0:0:0
+/
+ffff0000:2716:f001
+	c 498000:6900000:2:5:0:0:0
+/
+ffff0000:2718:f001
+	c 442000:6900000:2:5:0:0:0
+/
+ffff0000:2719:f001
+	c 474000:6900000:2:5:0:0:0
+/
+ffff0000:271a:f001
+	c 482000:6900000:2:5:0:0:0
+/
+ffff0000:271b:f001
+	c 490000:6900000:2:5:0:0:0
+/
+ffff0000:271c:f001
+	c 434000:6900000:2:5:0:0:0
+/
+ffff0000:271d:f001
+	c 426000:6900000:2:5:0:0:0
+/
+ffff0000:271e:f001
+	c 418000:6900000:2:5:0:0:0
+/
+ffff0000:2720:f001
+	c 354000:6900000:2:5:0:0:0
+/
+ffff0000:2721:f001
+	c 562000:6900000:2:5:0:0:0
+/
+ffff0000:2722:f001
+	c 394000:6900000:2:5:0:0:0
+/
+ffff0000:2723:f001
+	c 346000:6900000:2:5:0:0:0
+/
+ffff0000:2724:f001
+	c 410000:6900000:2:5:0:0:0
+/
+ffff0000:2725:f001
+	c 610000:6900000:2:3:0:0:0
+/
+ffff0000:2727:f001
+	c 402000:6900000:2:5:0:0:0
+/
+end
+services
+cf09:ffff0000:2712:f001:1:0
+BBC News (eng)
+p:Digital Free
+cf0a:ffff0000:2718:f001:1:0
+TELE 5
+p:Digital Free,c:00019b,c:01019c,c:02019e,c:03019b
+d10a:ffff0000:2712:f001:1:0
+Channel21
+p:Digital Free
+c60c:ffff0000:2718:f001:1:0
+sixx
+p:Digital Free,c:00049d,c:01049e,c:0204a0,c:03049d
+cf0c:ffff0000:2715:f001:1:0
+MTV
+p:Digital Free
+cf0e:ffff0000:2713:f001:1:0
+Nick
+p:Digital Free
+cf0f:ffff0000:2712:f001:1:0
+TV 5 Monde (fre)
+p:Digital Free
+cf11:ffff0000:2721:f001:1:0
+ProSieben MAXX
+p:Digital Free
+c613:ffff0000:2712:f001:1:0
+LUST PUR
+p:KD Home,c:000367,c:010368,c:030367,C:1861,C:1854,C:1845,C:1834,C:1722,C:09fd,C:09ef,C:09c7
+cf13:ffff0000:2721:f001:1:0
+SONLife (eng)
+p:Digital Free
+d113:ffff0000:2712:f001:1:0
+Shop LC
+p:Digital Free
+cf14:ffff0000:2721:f001:1:0
+DMF
+p:Digital Free,c:001965,c:011966,c:021968,c:031965
+d114:ffff0000:2713:f001:1:0
+N24 Doku
+p:Digital Free
+d116:ffff0000:2712:f001:1:0
+HSE Trend
+p:Digital Free
+c617:ffff0000:2713:f001:1:0
+Cartoon Network
+p:KD Home,c:000a47,c:010a48,c:030a47,C:1861,C:1854,C:1845,C:1834,C:1722,C:09fd,C:09ef,C:09c7
+d117:ffff0000:2712:f001:1:0
+Hope TV
+p:Digital Free,c:0004d9,c:0104da,c:0304d9
+d118:ffff0000:2713:f001:1:0
+CGTN
+p:Div. Sprachen
+d119:ffff0000:2713:f001:1:0
+K-TV
+p:Digital Free
+c61a:ffff0000:2721:f001:1:0
+QVC2
+p:Digital Free
+6e2e:ffff0000:0431:0001:1:0
+alt_rbb Berlin
+p:ARD
+d036:ffff0000:2725:f001:1:0
+France 3 (fre)
+p:Div. Sprachen,C:0000
+d03a:ffff0000:2725:f001:1:0
+Pro TV/TVR (rum)
+p:Digital Free,C:0000
+d03b:ffff0000:2725:f001:1:0
+GINX TV (eng)
+p:Digital Free,C:0000
+6e43:ffff0000:0431:0001:1:0
+alt_NDR FS SH
+p:ARD
+6e45:ffff0000:0431:0001:1:0
+alt_MDR S-Anhalt
+p:ARD
+d046:ffff0000:2725:f001:1:0
+BVN (dut)
+p:Digital Free,C:0000
+6e47:ffff0000:044d:0001:1:0
+alt_SWR Fernsehen RP
+p:ARD
+d049:ffff0000:2725:f001:1:0
+CNBC Europe (eng)
+p:Digital Free
+d04b:ffff0000:2721:f001:1:0
+DELUXE MUSIC
+p:Digital Free
+d04c:ffff0000:2721:f001:1:0
+SAT.1 Gold
+p:Digital Free
+d04d:ffff0000:2725:f001:1:0
+1+1 International
+p:Digital Free
+d04e:ffff0000:2712:f001:1:0
+TOGGO plus
+p:Digital Free
+d04f:ffff0000:2715:f001:1:0
+RTLup
+p:Digital Free
+d050:ffff0000:2715:f001:1:0
+SCHLAGER DELUXE
+p:Digital Free
+d055:ffff0000:2725:f001:1:0
+Halk TV / Kanal Avrupa (tur)
+p:KD Home,c:001a19,c:011a1a,c:031a19,C:1861,C:1854,C:1845,C:1834,C:1801,C:1722,C:09fd,C:09ef,C:09c7
+c756:ffff0000:2721:f001:1:0
+HSE EXTRA
+p:Digital Free
+c757:ffff0000:2725:f001:1:0
+AlJaz Balkan/AlJaz (bos/ara)
+p:Digital Free,C:0000
+c759:ffff0000:2725:f001:1:0
+France24 (fre/eng)
+p:Digital Free,C:0000
+c75a:ffff0000:2725:f001:1:0
+PCNE/ NTD TV (chi)
+p:Digital Free,C:0000
+c75c:ffff0000:2725:f001:1:0
+Arirang/Fashion TV (eng/spa)
+p:Digital Free,C:0000
+c75e:ffff0000:2725:f001:1:0
+Tunisie 1 (ara)
+p:Digital Free,C:0000
+c75f:ffff0000:2725:f001:1:0
+Duna TV (hun)
+p:Digital Free,C:0000
+d161:ffff0000:2710:f001:1:0
+RTL
+p:Digital Free
+d162:ffff0000:2715:f001:1:0
+Super RTL
+p:Digital Free
+d163:ffff0000:2715:f001:1:0
+RTLZWEI
+p:Digital Free
+d164:ffff0000:2715:f001:1:0
+VOX
+p:Digital Free
+2b66:ffff0000:0437:0000:1:0
+450 SID 0x2b66
+p:
+6d66:ffff0000:0437:0000:1:0
+450 SID 0x6d66
+p:
+6d66:ffff0000:0437:0001:1:0
+ZDF
+p:ZDFvision,f:40
+d166:ffff0000:2715:f001:1:0
+ntv
+p:Digital Free
+6d67:ffff0000:0437:0000:1:0
+450 SID 0x6d67
+p:
+6d67:ffff0000:0437:0001:1:0
+3sat
+p:ZDFvision,f:40
+d167:ffff0000:2718:f001:1:0
+Eurosport 1
+p:Digital Free,c:000b69,c:010b6a,c:030b69
+6d68:ffff0000:0437:0000:1:0
+450 SID 0x6d68
+p:
+6d68:ffff0000:0437:0001:1:0
+KiKA
+p:ZDFvision,f:40
+d169:ffff0000:2713:f001:1:0
+Comedy Central
+p:Digital Free
+6d6b:ffff0000:0437:0000:1:0
+450 SID 0x6d6b
+p:
+6d6b:ffff0000:0437:0001:1:0
+ZDFinfo
+p:ZDFvision,f:40
+d16c:ffff0000:2721:f001:1:0
+Astro TV
+p:Digital Free
+d16d:ffff0000:2712:f001:1:0
+CNN (eng)
+p:Digital Free
+6d6e:ffff0000:0437:0000:1:0
+450 SID 0x6d6e
+p:
+6d6e:ffff0000:0437:0001:1:0
+zdf_neo
+p:ZDFvision,f:40
+d16e:ffff0000:2715:f001:1:0
+Al Jazeera Int (eng)
+p:Digital Free
+286f:ffff0000:0437:0000:1:0
+450 SID 0x286f
+p:
+d16f:ffff0000:2715:f001:1:0
+sonnenklar.TV
+p:Digital Free
+d170:ffff0000:2713:f001:1:0
+QVC
+p:Digital Free
+d171:ffff0000:2713:f001:1:0
+DMAX
+p:Digital Free
+d173:ffff0000:2712:f001:1:0
+Juwelo TV
+p:Digital Free
+d174:ffff0000:2712:f001:1:0
+DF1
+p:Digital Free,c:000943,c:010944,c:030943
+d175:ffff0000:2718:f001:1:0
+ProSieben
+p:Digital Free
+cf76:ffff0000:2712:f001:1:0
+NITRO
+p:Digital Free
+d176:ffff0000:2718:f001:1:0
+kabel eins
+p:Digital Free
+d178:ffff0000:2715:f001:1:0
+SPORT1
+p:Digital Free
+c379:ffff0000:2713:f001:1:0
+Heimatkanal
+p:KD Home,c:0003df,c:0103e0,c:0303df,C:0000
+d179:ffff0000:2712:f001:1:0
+euronews
+p:Digital Free,c:000a29,c:010a2a,c:030a29
+d17a:ffff0000:2710:f001:1:0
+SAT.1
+p:Digital Free
+d17b:ffff0000:2718:f001:1:0
+WELT
+p:Digital Free,c:000af1,c:010af2,c:030af1
+d17c:ffff0000:2713:f001:1:0
+VOXup
+p:Digital Free
+d17e:ffff0000:2713:f001:1:0
+HSE
+p:Digital Free
+cf80:ffff0000:2715:f001:1:0
+DOKUSAT
+p:Digital Free,c:000b73,c:010b74,c:020b76,c:030b73
+c481:ffff0000:2713:f001:1:0
+Silverline
+p:KD Home,C:0000
+cb84:ffff0000:2710:f001:1:0
+Sylt1
+p:easyCAST,c:001de4,c:011de5,c:031de4
+c487:ffff0000:2713:f001:1:0
+HOME & GARDEN TV
+p:Digital Free
+cb87:ffff0000:2710:f001:1:0
+Hamburg 1
+p:Vodafone,c:001dee,c:011def,c:021df4,c:031dee
+d09b:ffff0000:2715:f001:1:0
+Bibel TV
+p:Digital Free
+d09c:ffff0000:2713:f001:1:0
+Cartoonito
+p:KD Home,c:0002d1,c:0102d2,c:0302d1,C:0000
+2ba2:ffff0000:0437:0000:1:0
+450 SID 0x2ba2
+p:
+0dad:ffff0000:0003:0085:1:0
+GFD Service
+p:,c:031fff
+0dae:ffff0000:0004:0085:1:0
+SDMS Service 1
+p:
+0daf:ffff0000:0004:0085:1:0
+SDMS Service 2
+p:
+c3b5:ffff0000:2715:f001:1:0
+Disney Channel
+p:Digital Free
+c3be:ffff0000:2712:f001:1:0
+1-2-3.tv
+p:Digital Free
+6dca:ffff0000:044d:0001:1:0
+alt_Das Erste
+p:ARD
+c3ca:ffff0000:2721:f001:1:0
+kabel eins Doku
+p:Digital Free
+6dcb:ffff0000:044d:0001:1:0
+alt_BR Süd
+p:ARD
+c3cb:ffff0000:2715:f001:1:0
+Fix & Foxi
+p:KD Home,c:00041b,c:01041c,c:03041b,C:0000
+6dcc:ffff0000:044d:0001:1:0
+alt_hr-fernsehen
+p:ARD
+6dcf:ffff0000:044d:0001:1:0
+alt_WDR Köln
+p:ARD
+6ee2:ffff0000:041b:0001:1:0
+alt_SR Fernsehen
+p:ARD
+cfe4:ffff0000:2712:f001:1:0
+TLC
+p:Digital Free,c:000371,c:010372,c:020374,c:030371
+cbf1:ffff0000:2710:f001:1:0
+ANIXE+
+p:Digital Free
+ce00:ffff0000:2710:f001:2:0
+Delta Radio
+p:Vodafone
+cf01:ffff0000:2710:f001:2:0
+NDR 2
+p:Vodafone,c:011e85,c:031e85
+cf03:ffff0000:2710:f001:2:0
+NDR Info HH
+p:Vodafone
+ce09:ffff0000:2710:f001:2:0
+Energy 97.1
+p:Vodafone,c:011e53,c:031e53
+ce17:ffff0000:2710:f001:2:0
+radio ffn - Hamburg/Lüneburg
+p:Vodafone
+c419:ffff0000:2712:f001:2:0
+Klassik
+p:Kabel Digital,c:010515,c:030515,C:0000
+c41a:ffff0000:2712:f001:2:0
+Orchestermusik
+p:Kabel Digital,c:010516,c:030516,C:0000
+c41b:ffff0000:2712:f001:2:0
+Alternative Deutschland
+p:Kabel Digital,C:0000
+c41d:ffff0000:2712:f001:2:0
+2000er Hits
+p:Kabel Digital,c:01051c,c:03051c,C:0000
+c41e:ffff0000:2712:f001:2:0
+Kinderhits
+p:Kabel Digital,c:01051a,c:03051a,C:0000
+c41f:ffff0000:2712:f001:2:0
+New Age
+p:Kabel Digital,C:0000
+c421:ffff0000:2712:f001:2:0
+All Day Party
+p:Kabel Digital,c:01052a,c:03052a,C:1861,C:1854,C:1845,C:1834,C:1722,C:09fd,C:09ef,C:09c7
+c422:ffff0000:2712:f001:2:0
+Heavy Metal
+p:Kabel Digital,C:0000
+c423:ffff0000:2712:f001:2:0
+Sommer Hits
+p:Kabel Digital,C:0000
+c424:ffff0000:2712:f001:2:0
+Schlager
+p:Kabel Digital,c:010520,c:030520,C:1861,C:1854,C:1845,C:1834,C:1722,C:09fd,C:09ef,C:09c7
+c425:ffff0000:2712:f001:2:0
+Total Hits Deutschland
+p:Kabel Digital,C:0000
+c426:ffff0000:2712:f001:2:0
+Latin
+p:Kabel Digital,C:0000
+c427:ffff0000:2712:f001:2:0
+Türk Müzigi
+p:Kabel Digital,c:010523,c:030523,C:1861,C:1854,C:1845,C:1834,C:1722,C:09fd,C:09ef,C:09c7
+c42b:ffff0000:2712:f001:2:0
+Chillout
+p:Kabel Digital,c:010527,c:030527,C:1861,C:1854,C:1845,C:1834,C:1722,C:09fd,C:09ef,C:09c7
+c42d:ffff0000:2712:f001:2:0
+Jazz Classics
+p:Kabel Digital,c:010529,c:030529,C:1861,C:1854,C:1845,C:1834,C:1722,C:09fd,C:09ef,C:09c7
+c430:ffff0000:2712:f001:2:0
+Rock Hymnen
+p:Kabel Digital,c:01052c,c:03052c,C:1861,C:1854,C:1845,C:1834,C:1722,C:09fd,C:09ef,C:09c7
+ce30:ffff0000:2710:f001:2:0
+Antenne Niedersachsen HH/LG
+p:Vodafone
+c433:ffff0000:2712:f001:2:0
+Rock 'n' Roll Oldies
+p:Kabel Digital,c:01052f,c:03052f,C:1861,C:1854,C:1845,C:1834,C:1722,C:09fd,C:09ef,C:09c7
+c437:ffff0000:2712:f001:2:0
+60er & 70er Hits
+p:Kabel Digital,c:010533,c:030533,C:1861,C:1854,C:1845,C:1834,C:1722,C:09fd,C:09ef,C:09c7
+c438:ffff0000:2712:f001:2:0
+Cocktail Lounge
+p:Kabel Digital,c:010534,c:030534,C:1861,C:1854,C:1845,C:1834,C:1722,C:09fd,C:09ef,C:09c7
+c439:ffff0000:2712:f001:2:0
+Rock of Ages
+p:Kabel Digital,c:010535,c:030535,C:1861,C:1854,C:1845,C:1834,C:1722,C:09fd,C:09ef,C:09c7
+c43a:ffff0000:2712:f001:2:0
+Specials
+p:Kabel Digital,c:010536,c:030536,C:1861,C:1854,C:1845,C:1834,C:1722,C:09fd,C:09ef,C:09c7
+c43b:ffff0000:2712:f001:2:0
+Easy Listening Deutschland
+p:Kabel Digital,c:010537,c:030537,C:1861,C:1854,C:1845,C:1834,C:1722,C:09fd,C:09ef,C:09c7
+c43c:ffff0000:2712:f001:2:0
+Dance Party
+p:Kabel Digital,c:010538,c:030538,C:1861,C:1854,C:1845,C:1834,C:1722,C:09fd,C:09ef,C:09c7
+c43f:ffff0000:2715:f001:2:0
+Hip-Hop Deutschland
+p:Kabel Digital,C:0000
+c441:ffff0000:2715:f001:2:0
+80er & 90er Hits
+p:Kabel Digital,C:0000
+c442:ffff0000:2715:f001:2:0
+Kuschelsongs
+p:Kabel Digital,C:0000
+c443:ffff0000:2715:f001:2:0
+Blues
+p:Kabel Digital,C:0000
+c445:ffff0000:2715:f001:2:0
+Soul & R'n'B
+p:Kabel Digital,c:010541,c:030541,C:0000
+c446:ffff0000:2715:f001:2:0
+Reggae
+p:Kabel Digital,c:010542,c:030542,C:0000
+c447:ffff0000:2715:f001:2:0
+Cool Jazz
+p:Kabel Digital,C:0000
+ce4e:ffff0000:2710:f001:2:0
+Radio Teddy
+p:Vodafone
+c353:ffff0000:2721:f001:2:0
+RPR1.
+p:Digital Free,c:010b2e,c:030b2e
+c357:ffff0000:2712:f001:2:0
+Radio Regenbogen
+p:Digital Free,c:010b1a,c:030b1a
+c35e:ffff0000:2712:f001:2:0
+ROCK FM
+p:Digital Free,c:010b24,c:030b24
+c360:ffff0000:2715:f001:2:0
+bigFM
+p:Digital Free,c:010ade,c:030ade
+c369:ffff0000:2715:f001:2:0
+Oldie Antenne
+p:Digital Free
+6d6c:ffff0000:0437:0000:2:0
+450 SID 0x6d6c
+p:,c:0102c6,c:0302c6
+6d6c:ffff0000:0437:0001:2:0
+Dlf Kultur
+p:ZDFvision,f:40
+6d6d:ffff0000:0437:0000:2:0
+450 SID 0x6d6d
+p:,c:01032a,c:03032a
+6d6d:ffff0000:0437:0001:2:0
+Dlf
+p:ZDFvision,f:40
+6d6f:ffff0000:2721:f001:2:0
+DRadio DokDeb
+p:Digital Free,c:01193e,c:03193e
+ce70:ffff0000:2710:f001:2:0
+Klassik Radio
+p:Vodafone
+6d71:ffff0000:0437:0000:2:0
+450 SID 0x6d71
+p:,c:01019a,c:03019a
+6d71:ffff0000:0437:0001:2:0
+Dlf Nova
+p:ZDFvision,c:01019a,c:03019a,f:40
+ce74:ffff0000:2710:f001:2:0
+Hamburg zwei
+p:Vodafone,c:011dcb,c:031dcb
+c376:ffff0000:2715:f001:2:0
+RADIO BOLLERWAGEN
+p:Digital Free
+ce8c:ffff0000:2710:f001:2:0
+Radio Hamburg
+p:Vodafone
+ce9a:ffff0000:2710:f001:2:0
+MEGA Radio
+p:Digital Free,c:011ea3,c:031ea3
+cea8:ffff0000:2710:f001:2:0
+Radio Schleswig-Holstein - Süd
+p:Vodafone
+cdc6:ffff0000:2710:f001:2:0
+Radio BOB
+p:Vodafone
+cecd:ffff0000:2710:f001:2:0
+TIDE 96.0
+p:Vodafone
+cdd9:ffff0000:2710:f001:2:0
+Schlager Radio
+p:Vodafone
+cddc:ffff0000:2710:f001:2:0
+ROCK ANTENNE Hamburg
+p:Vodafone,c:011e49,c:031e49
+c4e0:ffff0000:2718:f001:2:0
+Radio-Test
+p:Digital Free,c:0118f8,c:0318f8,C:0000
+c4e1:ffff0000:2715:f001:2:0
+Radio Horeb
+p:Digital Free,c:0118da,c:0318da
+c4e2:ffff0000:2715:f001:2:0
+ERF Plus
+p:Digital Free,c:0118e4,c:0318e4
+c4e3:ffff0000:2715:f001:2:0
+BBC World Service
+p:Englisch,C:0000
+c4e4:ffff0000:2715:f001:2:0
+sunshine live
+p:Digital Free,c:0118ee,c:0318ee
+c4e6:ffff0000:2715:f001:2:0
+RTL Radio
+p:Digital Free,c:0118a8,c:0318a8
+c4e7:ffff0000:2715:f001:2:0
+Radio Paloma
+p:Digital Free,c:0118b2,c:0318b2
+c4e8:ffff0000:2715:f001:2:0
+JAM FM
+p:Digital Free,c:0118bc,c:0318bc
+c4e9:ffff0000:2715:f001:2:0
+METROPOL FM
+p:Türkisch,c:0118c6,c:0318c6,C:1861,C:1854,C:1834,C:1801,C:1722,C:09fd,C:09ef,C:09c7
+c4ea:ffff0000:2715:f001:2:0
+Beats Radio
+p:Digital Free,c:010d36,c:030d36
+c4ed:ffff0000:2721:f001:2:0
+UNSERDING
+p:Digital Free
+c4ef:ffff0000:2721:f001:2:0
+AntenneSaar
+p:Digital Free
+c4f0:ffff0000:2721:f001:2:0
+WDR 2 Ostwestfalen/Lippe
+p:Digital Free
+c4f1:ffff0000:2712:f001:2:0
+Rock Antenne
+p:Digital Free,c:010d2c,c:030d2c
+c4f2:ffff0000:2715:f001:2:0
+80s80s
+p:Digital Free,c:01189e,c:03189e
+cef2:ffff0000:2710:f001:2:0
+NDR 1 Niedersachsen -Nordost
+p:Vodafone
+c4f3:ffff0000:2721:f001:2:0
+Schwarzwaldradio
+p:Digital Free,c:010cf0,c:030cf0
+c4f5:ffff0000:2715:f001:2:0
+HRT HR1
+p:Kabel Digital,c:010d0e,c:030d0e,C:1854
+c4f6:ffff0000:2715:f001:2:0
+Pink Radio
+p:Kabel Digital,c:010d18,c:030d18,C:1854
+c4f7:ffff0000:2715:f001:2:0
+Rai Radio 1
+p:Kabel Digital,c:010d22,c:030d22,C:1854
+c4f8:ffff0000:2715:f001:2:0
+Radio ZET
+p:Kabel Digital,c:010d40,c:030d3e,C:1854
+c4f9:ffff0000:2715:f001:2:0
+Radio Exterior
+p:Kabel Digital,c:010ac0,c:030ac0,C:1854
+c4fa:ffff0000:2715:f001:2:0
+RDP Internacional
+p:Kabel Digital,c:010aca,c:030aca,C:1854
+c4fb:ffff0000:2715:f001:2:0
+90s90s
+p:Digital Free,c:010ad4,c:030ad4
+cefd:ffff0000:2710:f001:2:0
+NDR 1 Welle Nord -Ost
+p:Vodafone
+cefe:ffff0000:2710:f001:2:0
+NDR 1 Welle Nord -Süd
+p:Vodafone
+28a0:ffff0000:0431:0001:10:0
+Bayern 1
+p:ARD,c:030c1d
+28a1:ffff0000:0431:0001:10:0
+Bayern 2
+p:ARD
+28a2:ffff0000:0431:0001:10:0
+BAYERN 3
+p:ARD
+28a3:ffff0000:0431:0001:10:0
+BR-KLASSIK
+p:ARD
+28a4:ffff0000:0431:0001:10:0
+BR24
+p:ARD
+28a5:ffff0000:0431:0001:10:0
+BR24live
+p:ARD
+28a6:ffff0000:0431:0001:10:0
+BR Schlager
+p:ARD
+28a7:ffff0000:0431:0001:10:0
+PULS
+p:ARD
+28a8:ffff0000:0431:0001:10:0
+BR Heimat
+p:ARD
+28ac:ffff0000:0431:0001:10:0
+NDR 2 NDS
+p:ARD,c:030d5d
+28ad:ffff0000:0431:0001:10:0
+NDR Kultur
+p:ARD
+28ae:ffff0000:0431:0001:10:0
+NDR Info NDS
+p:ARD
+28af:ffff0000:0431:0001:10:0
+N-JOY
+p:ARD
+28b0:ffff0000:0431:0001:10:0
+NDR 90,3
+p:ARD,c:030d85
+28b1:ffff0000:0431:0001:10:0
+NDR 1 Welle Nord KI
+p:ARD
+28b2:ffff0000:0431:0001:10:0
+NDR 1 Radio MV SN
+p:ARD,c:030d99
+28b3:ffff0000:0431:0001:10:0
+NDR 1 Nieders. HAN
+p:ARD,c:030da3
+28b4:ffff0000:0431:0001:10:0
+NDR Info Spezial
+p:ARD
+28b5:ffff0000:0431:0001:10:0
+NDR Blue
+p:ARD,c:030db7
+28b6:ffff0000:0431:0001:10:0
+NDR Schlager
+p:ARD
+28ba:ffff0000:0431:0001:10:0
+Bremen Eins
+p:ARD
+28bb:ffff0000:0431:0001:10:0
+Bremen Zwei
+p:ARD,c:030df3
+28bc:ffff0000:0431:0001:10:0
+Bremen Vier
+p:ARD
+28bd:ffff0000:0431:0001:10:0
+Bremen NEXT
+p:ARD
+28c0:ffff0000:0431:0001:10:0
+SR 1 Europawelle
+p:ARD
+28c1:ffff0000:0431:0001:10:0
+SR kultur
+p:ARD
+28c2:ffff0000:0431:0001:10:0
+SR 3 Saarlandwelle
+p:ARD
+28c8:ffff0000:044d:0001:10:0
+SWR1 BW
+p:ARD,c:030e75
+28c9:ffff0000:044d:0001:10:0
+SWR1 RP
+p:ARD,c:030e7f
+28ca:ffff0000:044d:0001:10:0
+SWR Kultur
+p:ARD
+28cb:ffff0000:044d:0001:10:0
+SWR3
+p:ARD
+28cc:ffff0000:044d:0001:10:0
+SWR4 BW
+p:ARD
+28cd:ffff0000:044d:0001:10:0
+SWR4 RP
+p:ARD
+28ce:ffff0000:044d:0001:10:0
+DASDING
+p:ARD,c:030eb1
+28cf:ffff0000:044d:0001:10:0
+SWR Aktuell
+p:ARD,c:030ebb
+28d3:ffff0000:0431:0001:10:0
+1LIVE
+p:ARD,c:030ee3
+28d4:ffff0000:0431:0001:10:0
+WDR 2
+p:ARD
+28d5:ffff0000:0431:0001:10:0
+WDR 3
+p:ARD
+28d6:ffff0000:0431:0001:10:0
+WDR 4
+p:ARD
+28d7:ffff0000:0431:0001:10:0
+WDR 5
+p:ARD
+28d8:ffff0000:0431:0001:10:0
+COSMO
+p:ARD,c:030f15
+28d9:ffff0000:0431:0001:10:0
+1LIVE diGGi
+p:ARD
+28da:ffff0000:0431:0001:10:0
+Die Maus
+p:ARD
+28db:ffff0000:0431:0001:10:0
+WDR Event
+p:ARD,c:030f33
+28e1:ffff0000:044d:0001:10:0
+hr1
+p:ARD
+28e2:ffff0000:044d:0001:10:0
+hr2
+p:ARD
+28e3:ffff0000:044d:0001:10:0
+hr3
+p:ARD
+28e4:ffff0000:044d:0001:10:0
+hr4
+p:ARD
+28e5:ffff0000:044d:0001:10:0
+YOU FM
+p:ARD
+28e6:ffff0000:044d:0001:10:0
+hr INFO
+p:ARD,c:030fa1
+28ea:ffff0000:044d:0001:10:0
+MDR SACHSEN DD
+p:ARD
+28eb:ffff0000:044d:0001:10:0
+MDR S-ANHALT MD
+p:ARD
+28ec:ffff0000:044d:0001:10:0
+MDR THÜR Mitte-W
+p:ARD
+28ed:ffff0000:044d:0001:10:0
+MDR KULTUR
+p:ARD
+28ee:ffff0000:044d:0001:10:0
+MDR JUMP
+p:ARD
+28ef:ffff0000:044d:0001:10:0
+MDR SPUTNIK
+p:ARD
+28f0:ffff0000:044d:0001:10:0
+MDR AKTUELL
+p:ARD
+28f1:ffff0000:044d:0001:10:0
+MDR KLASSIK
+p:ARD
+28f4:ffff0000:044d:0001:10:0
+rbb24 Inforadio
+p:ARD,c:03102d
+28f5:ffff0000:044d:0001:10:0
+radio3
+p:ARD
+28f6:ffff0000:044d:0001:10:0
+Antenne Brandenburg
+p:ARD
+28f7:ffff0000:044d:0001:10:0
+rbb 88.8
+p:ARD
+28f8:ffff0000:044d:0001:10:0
+radioeins
+p:ARD
+28f9:ffff0000:044d:0001:10:0
+Fritz
+p:ARD,c:03105f
+cf1c:ffff0000:2718:f001:12:0
+EPG Digital
+p:KD Home,c:031fff,C:1861,C:1834,C:1801,C:1722,C:09ef,C:09c7
+cf23:ffff0000:2718:f001:12:0
+Sagem RCI88-320 (1)
+p:KD Home
+cf26:ffff0000:0431:0001:12:0
+Data Carousel 1
+p:
+cf27:ffff0000:0437:0001:12:0
+Data Carousel 2
+p:KD Home,c:031fff,f:40
+0f8c:ffff0000:0003:0085:12:0
+Humax PR-HD3000C
+p:
+0f9a:ffff0000:0003:0085:12:0
+Pace TDC 866 NSDX
+p:
+0dab:ffff0000:0003:0085:12:0
+STB channel config.
+p:
+001c:ffff0000:0004:0085:22:0
+Cartoonito
+p:SKY,C:1860
+008a:ffff0000:0003:0085:22:0
+Nick.Jr.
+p:SKY,C:0000
+0195:ffff0000:0006:0085:22:0
+Warner TV Film
+p:Sky,C:0000
+07e7:ffff0000:0003:0085:22:0
+Romance TV
+p:SKY,C:1860
+07e8:ffff0000:0004:0085:22:0
+HISTORY Channel
+p:SKY,c:0003ff,c:010403,c:0303ff,c:050001,C:0000
+07e9:ffff0000:0006:0085:22:0
+Warner TV Comedy
+p:SKT,C:0000
+0101:ffff0000:0001:0085:25:0
+Sky Sport Bundesliga 9 HD
+p:SKY
+0102:ffff0000:0001:0085:25:0
+Sky Sport 9 HD
+p:SKY
+010b:ffff0000:0006:0085:25:0
+Sky Sport Bundesliga 1 HD
+p:SKY,c:0007ff,c:020020,c:0307ff,c:040802,c:050001,C:0000
+010c:ffff0000:0006:0085:25:0
+Sky Sport 1 HD
+p:SKY
+000d:ffff0000:0003:0085:25:0
+Sky Crime HD
+p:SKY,c:0000ff,c:0300ff,c:040103,c:050001,C:0000
+010d:ffff0000:0006:0085:25:0
+Sky Sport 10 HD
+p:SKY
+010f:ffff0000:0006:0085:25:0
+Sky Sport Bundesliga 10 HD
+p:SKY
+0011:ffff0000:0004:0085:25:0
+Sky Sport F1 HD
+p:SKY,c:0007ff,c:020020,c:0307ff,c:040802,c:050001,C:1861,C:1854,C:09fd,C:09ef,C:09c7
+0115:ffff0000:000c:0085:25:0
+Sky Sport Bundesliga 2 HD
+p:SKY,C:0000
+0116:ffff0000:000c:0085:25:0
+Sky Sport 2 HD
+p:SKY
+cf16:ffff0000:2721:f001:25:0
+eSportsONE
+p:KD Home,c:001901,c:031901,c:041902,c:050001,C:0000
+0017:ffff0000:0001:0085:25:0
+Sky Krimi HD
+p:SKY,c:0003ff,c:0303ff,c:040403,c:050001,C:0000
+011f:ffff0000:000c:0085:25:0
+Sky Sport Bundesliga 3 HD
+p:SKY,C:0000
+0120:ffff0000:000c:0085:25:0
+Sky Sport 3 HD
+p:SKY
+0129:ffff0000:0001:0085:25:0
+Sky Sport Bundesliga 4 HD
+p:SKY,C:0000
+012a:ffff0000:0001:0085:25:0
+Sky Sport 4 HD
+p:SKY
+0133:ffff0000:0004:0085:25:0
+Sky Sport Bundesliga 5 HD
+p:SKY
+0134:ffff0000:0004:0085:25:0
+Sky Sport 5 HD
+p:SKY
+c739:ffff0000:271a:f001:25:0
+DAZN 1 (Sky)
+p:KD Home,c:0002e5,c:0302e5,c:0402e6,c:050001,C:0000
+c73a:ffff0000:2724:f001:25:0
+DAZN 2 (Sky)
+p:KD Home,C:0000
+013d:ffff0000:0003:0085:25:0
+Sky Sport Bundesliga 6 HD
+p:SKY
+283d:ffff0000:041b:0001:25:0
+Das Erste HD
+p:ARD,c:0013ed,c:0213f0,c:0313ed,c:0413ee,c:050001
+013e:ffff0000:0003:0085:25:0
+Sky Sport 6 HD
+p:SKY,c:0018ff,c:020020,c:0318ff,c:041902,c:050001,C:1861,C:1854,C:09fd,C:09ef,C:09c7
+283e:ffff0000:271e:f001:25:0
+arte HD
+p:ARD,c:001a05,c:021a08,c:031a05,c:041a06,c:050001
+2840:ffff0000:041b:0001:25:0
+SWR RP HD
+p:ARD
+0147:ffff0000:0003:0085:25:0
+Sky Sport Bundesliga 7 HD
+p:SKY
+0148:ffff0000:0003:0085:25:0
+Sky Sport 7 HD
+p:SKY
+c350:ffff0000:271c:f001:25:0
+Sky One HD
+p:KD Home,C:0000
+0151:ffff0000:0004:0085:25:0
+Sky Sport Bundesliga 8 HD
+p:SKY
+c351:ffff0000:271d:f001:25:0
+Warner TV Serie HD (VF)
+p:KD Home,C:0000
+0152:ffff0000:0004:0085:25:0
+Sky Sport 8 HD
+p:SKY
+c352:ffff0000:271d:f001:25:0
+Warner TV Film HD
+p:KD Home,C:0000
+c354:ffff0000:271d:f001:25:0
+13th Street HD (VF)
+p:KD Home,C:0000
+0155:ffff0000:0004:0085:25:0
+Prime Sportsbar
+p:SKY
+2855:ffff0000:044d:0001:25:0
+BR Süd HD
+p:ARD
+c355:ffff0000:2722:f001:25:0
+Sportdigital1+
+p:KD Home,C:0000
+c356:ffff0000:271c:f001:25:0
+NatGeo HD (VF)
+p:KD Home,C:0000
+2857:ffff0000:044d:0001:25:0
+NDR FS NDS HD
+p:ARD
+c358:ffff0000:271c:f001:25:0
+SYFY HD (VF)
+p:KD Home,C:0000
+2859:ffff0000:0431:0001:25:0
+NDR FS HH HD
+p:ARD
+c359:ffff0000:271e:f001:25:0
+kabel eins HD
+p:Digital Free,C:0000
+285a:ffff0000:0431:0001:25:0
+NDR FS SH HD
+p:ARD
+c35a:ffff0000:271e:f001:25:0
+SPORT1 HD
+p:Digital Free,c:0019dd,c:0319dd,c:0419de,c:050001,C:0000
+285b:ffff0000:2719:f001:25:0
+PHOENIX HD
+p:ARD,c:000245,c:020248,c:030245,c:040246,c:050001
+c35b:ffff0000:2727:f001:25:0
+RTLZWEI HD
+p:Digital Free,C:0000
+c35c:ffff0000:2723:f001:25:0
+RTL HD
+p:Digital Free,C:0000
+c35d:ffff0000:271d:f001:25:0
+VOX HD
+p:Digital Free,C:0000
+c35f:ffff0000:271d:f001:25:0
+ProSieben HD
+p:Digital Free,C:0000
+c361:ffff0000:271c:f001:25:0
+Warner TV Comedy HD
+p:KD Home,C:0000
+c362:ffff0000:2723:f001:25:0
+SAT.1 HD
+p:Digital Free,C:0000
+c363:ffff0000:2716:f001:25:0
+sixx HD
+p:Digital Free,C:0000
+c364:ffff0000:271c:f001:25:0
+Romance TV HD
+p:KD Home,C:0000
+0065:ffff0000:0001:0085:25:0
+Universal TV HD
+p:,C:0000
+c365:ffff0000:2716:f001:25:0
+DF1 HD
+p:Digital Free,c:001a73,c:031a73,c:041a74,c:050001
+2b66:ffff0000:0437:0001:25:0
+ZDF HD
+p:ZDFvision,c:0017de,c:0217f2,c:0317de,c:0417e8,c:050001,f:40
+c367:ffff0000:2722:f001:25:0
+AXN Black HD
+p:KD Home,C:0000
+c368:ffff0000:271c:f001:25:0
+KinoweltTV HD
+p:KD Home,C:0000
+0069:ffff0000:000c:0085:25:0
+Sky Sport Bundesliga HD
+p:SKY,c:0000ff,c:020020,c:0300ff,c:040102,c:050001,C:1860
+c36a:ffff0000:2716:f001:25:0
+HSE HD
+p:Digital Free,c:001a87,c:021a8a,c:031a87,c:041a88,c:050001
+006b:ffff0000:0003:0085:25:0
+Sky Cinema Classics HD
+p:SKY,c:0005ff,c:0305ff,c:040603,c:050001,C:1860
+c36b:ffff0000:2716:f001:25:0
+QVC HD
+p:Digital Free
+006c:ffff0000:000c:0085:25:0
+Sky Sport News HD
+p:SKY,C:1860
+c36c:ffff0000:2716:f001:25:0
+SUPER RTL HD
+p:Digital Free,C:0000
+c36d:ffff0000:2716:f001:25:0
+NITRO HD
+p:Digital Free,C:0000
+006e:ffff0000:0004:0085:25:0
+Sky Atlantic HD
+p:SKY,c:0004ff,c:0304ff,c:040503,c:050001,C:1860
+c36e:ffff0000:2720:f001:25:0
+AXN White HD
+p:KD Home,C:0000
+006f:ffff0000:0003:0085:25:0
+Sky Cinema Highlights HD
+p:SKY,c:0006ff,c:0306ff,c:040703,c:050001,C:1860
+286f:ffff0000:0437:0001:25:0
+rbb Berlin HD
+p:ARD,c:0014bf,c:0214c2,c:0314bf,c:0414c0,c:050001,f:40
+c36f:ffff0000:2720:f001:25:0
+Disney Ch. HD
+p:Digital Free,C:0000
+0070:ffff0000:000c:0085:25:0
+Sky Documentaries HD
+p:SKY,c:0001ff,c:0301ff,c:040203,c:050001,C:1860
+2870:ffff0000:044d:0001:25:0
+MDR Sachsen HD
+p:ARD
+c370:ffff0000:2720:f001:25:0
+NatGeo Wild HD (VF)
+p:KD Home,C:0000
+c371:ffff0000:2720:f001:25:0
+The HISTORY Channel HD
+p:KD Home,C:0000
+0072:ffff0000:0003:0085:25:0
+Sky Sport Tennis HD
+p:SKY,C:1860
+c372:ffff0000:2720:f001:25:0
+WELT HD
+p:Digital Free,c:0019bf,c:0319bf,c:0419c0,c:050001,C:0000
+0073:ffff0000:0004:0085:25:0
+RTLSport 1
+p:SKY
+2873:ffff0000:271e:f001:25:0
+hr-fernsehen HD
+p:ARD
+c373:ffff0000:2720:f001:25:0
+UNIVERSAL TV HD (VF)
+p:KD Home,C:0000
+0074:ffff0000:0001:0085:25:0
+Sky Cinema Action HD
+p:SKY,c:0009ff,c:0309ff,c:040a00,c:050001,C:1860
+c374:ffff0000:2719:f001:25:0
+DOKUSAT HD
+p:KD Home,c:00023b,c:02023e,c:03023b,c:04023c,c:050001,C:0000
+0075:ffff0000:0001:0085:25:0
+RTLSport 2
+p:SKY
+c375:ffff0000:2724:f001:25:0
+DMAX HD
+p:Digital Free,C:0000
+0076:ffff0000:0006:0085:25:0
+Sky Nature HD
+p:SKY,C:1860
+c377:ffff0000:2727:f001:25:0
+QVC Style HD
+p:Digital Free
+c378:ffff0000:2721:f001:25:0
+MTV HD
+p:Digital Free,C:0000
+2b7a:ffff0000:2719:f001:25:0
+zdf_neo HD
+p:ZDFvision,c:00021d,c:020220,c:03021d,c:04021e,c:050001
+007b:ffff0000:0006:0085:25:0
+Warner TV Serie HD
+p:SKY,C:1860
+c37b:ffff0000:2719:f001:25:0
+TELE 5 HD
+p:Digital Free,C:0000
+007c:ffff0000:0001:0085:25:0
+Sky Replay HD
+p:SKY,c:0006ff,c:0306ff,c:040703,c:050001,C:1860
+c37d:ffff0000:2719:f001:25:0
+CNN HD (eng)
+p:Digital Free,C:0000
+007e:ffff0000:0001:0085:25:0
+SYFY HD
+p:SKY,C:0000
+c37e:ffff0000:2724:f001:25:0
+ProSieben MAXX HD
+p:Digital Free,C:0000
+007f:ffff0000:0001:0085:25:0
+13th Street HD
+p:SKY,c:0002ff,c:0302ff,c:040303,c:050001,C:0000
+0081:ffff0000:0006:0085:25:0
+Sky Sport Top Event HD
+p:SKY,C:1860
+c381:ffff0000:271a:f001:25:0
+Nick Jr. HD
+p:KD Home,c:0002bd,c:0302bd,c:0402be,c:050001,C:0000
+0082:ffff0000:0006:0085:25:0
+Discovery HD
+p:SKY,C:1860
+c382:ffff0000:271a:f001:25:0
+Comedy Central HD
+p:Digital Free,C:0000
+0083:ffff0000:0006:0085:25:0
+Sky Cinema Premiere HD
+p:SKY,c:0004ff,c:0304ff,c:040503,c:050001,C:1860
+0085:ffff0000:000c:0085:25:0
+Beate Uhse HD
+p:SKY,C:0000
+c385:ffff0000:271a:f001:25:0
+Nick HD
+p:Digital Free,C:0000
+c386:ffff0000:271a:f001:25:0
+SPORTDIGITAL FUSSBALL HD
+p:KD Home,c:00033f,c:03033f,c:040340,c:050001,C:0000
+2887:ffff0000:2722:f001:25:0
+tagesschau24 HD
+p:Digital Free,c:0004c5,c:0204c8,c:0304c5,c:0404c6,c:050001
+c387:ffff0000:271b:f001:25:0
+Bibel TV HD
+p:Digital Free,C:0000
+2888:ffff0000:2727:f001:25:0
+ONE HD
+p:Digital Free,c:0006b9,c:0206bc,c:0306b9,c:0406ba,c:050001
+c388:ffff0000:271b:f001:25:0
+kabel eins CLASSICS HD
+p:KD Home,C:0000
+2889:ffff0000:2722:f001:25:0
+ARD alpha HD
+p:Digital Free,c:0004bb,c:0204be,c:0304bb,c:0404bc,c:050001
+c389:ffff0000:271d:f001:25:0
+ProSieben FUN HD
+p:KD Home,C:0000
+288a:ffff0000:2722:f001:25:0
+SR Fernsehen HD
+p:ARD
+c38a:ffff0000:271b:f001:25:0
+SAT.1 emotions HD
+p:KD Home,C:0000
+008b:ffff0000:0004:0085:25:0
+Sky Cinema Family HD
+p:SKY,c:0000ff,c:0300ff,c:040100,c:050001,C:0000
+c38b:ffff0000:271b:f001:25:0
+ntv HD
+p:Digital Free,C:0000
+c38c:ffff0000:271b:f001:25:0
+C+I HD
+p:KD Home,C:0000
+008d:ffff0000:0001:0085:25:0
+Sky Sport Mix HD
+p:SKY,C:0000
+008e:ffff0000:0006:0085:25:0
+Sky Showcase HD
+p:SKY,C:0000
+2b8e:ffff0000:2721:f001:25:0
+3sat HD
+p:ZDFvision,c:001a23,c:021a26,c:031a23,c:041a24,c:050001
+0090:ffff0000:0003:0085:25:0
+Sky Sport Golf HD
+p:SKY,C:0000
+0091:ffff0000:0004:0085:25:0
+Sky Sport Premier League HD
+p:SKY,C:0000
+c392:ffff0000:2722:f001:25:0
+HOME & GARDEN TV HD
+p:KD Home,C:0000
+0093:ffff0000:0004:0085:25:0
+Sky One HD
+p:SKY,c:0002ff,c:0302ff,c:040303,c:050001,C:0000
+c393:ffff0000:2724:f001:25:0
+sonnenklar.TV HD
+p:Digital Free,c:000781,c:020784,c:030781,c:040782,c:050001
+c394:ffff0000:2727:f001:25:0
+TLC HD
+p:KD Home,C:0000
+c396:ffff0000:271b:f001:25:0
+RTLup HD
+p:KD Home,C:0000
+2b98:ffff0000:2719:f001:25:0
+KiKA HD
+p:ZDFvision
+c398:ffff0000:2724:f001:25:0
+Discovery Channel HD (VF)
+p:KD Home,C:0000
+c39a:ffff0000:2724:f001:25:0
+SAT.1 Gold HD
+p:Digital Free,C:0000
+c39c:ffff0000:2727:f001:25:0
+DELUXE MUSIC HD
+p:Digital Free,C:0000
+c39e:ffff0000:2727:f001:25:0
+1-2-3.tv HD
+p:Digital Free,c:0006af,c:0206b2,c:0306af,c:0406b0,c:050001
+c39f:ffff0000:271c:f001:25:0
+GEO TV HD
+p:KD Home,C:0000
+c3a0:ffff0000:271a:f001:25:0
+RTL Living HD
+p:KD Home,c:001497,c:031497,c:041498,c:050001,C:0000
+2ba2:ffff0000:0437:0001:25:0
+ZDFinfo HD
+p:ZDFvision,c:001a36,c:021a4a,c:031a36,c:041a40,c:050001,f:40
+c3a2:ffff0000:271b:f001:25:0
+Eurosport 1 HD
+p:Digital Free,C:0000
+c3a4:ffff0000:2720:f001:25:0
+RTL Crime HD
+p:KD Home,C:0000
+c3a5:ffff0000:2716:f001:25:0
+Eurosport 2 HD
+p:KD Home,c:0014e7,c:0314e7,c:0414e8,c:050001,C:1861,C:1854,C:1845,C:1834,C:09fd,C:09ef,C:09c7
+c3a6:ffff0000:271d:f001:25:0
+Kabel eins Doku HD
+p:KD Home,C:0000
+c3a7:ffff0000:2724:f001:25:0
+HSE Extra HD
+p:Digital Free,c:000605,c:020608,c:030605,c:040606,c:050001
+c3a8:ffff0000:2727:f001:25:0
+QVC2 HD
+p:Digital Free
+c3a9:ffff0000:271a:f001:25:0
+DAZN 1
+p:KD Home,c:0002e5,c:0302e5,c:0402e6,c:050001,C:0000
+c3aa:ffff0000:2724:f001:25:0
+DAZN 2
+p:KD Home,c:001915,c:031915,c:041916,c:050001,C:0000
+6eac:ffff0000:041b:0001:25:0
+WDR HD Köln
+p:ARD,c:00157d,c:021580,c:03157d,c:04157e,c:050001
+c3ac:ffff0000:271e:f001:25:0
+Shop LC HD
+p:Digital Free,c:001983,c:031983,c:041984,c:050001
+cbf2:ffff0000:2710:f001:25:0
+DMF HD
+p:KD Home,c:001dda,c:021de0,c:031dda,c:041ddb,c:050001,C:0000
+0228:ffff0000:000c:0085:31:0
+Sky Sport Bundesliga UHD
+p:SKY,C:0000
+0229:ffff0000:000c:0085:31:0
+Sky Sport UHD
+p:SKY,C:0000
+022a:ffff0000:000c:0085:31:0
+.
+p:SKY,f:40
+cf1e:ffff0000:2718:f001:100:0
+442 SID 0xcf1e
+p:
+cf1f:ffff0000:2718:f001:100:0
+442 SID 0xcf1f
+p:
+cb20:ffff0000:2710:f001:100:0
+466 SID 0xcb20
+p:
+cf20:ffff0000:2718:f001:100:0
+442 SID 0xcf20
+p:
+cf22:ffff0000:2718:f001:100:0
+442 SID 0xcf22
+p:
+cf27:ffff0000:0437:0000:100:0
+450 SID 0xcf27
+p:
+cf2a:ffff0000:2718:f001:100:0
+442 SID 0xcf2a
+p:
+cf2b:ffff0000:2718:f001:100:0
+442 SID 0xcf2b
+p:
+cf2d:ffff0000:2718:f001:100:0
+442 SID 0xcf2d
+p:
+cf2e:ffff0000:2718:f001:100:0
+442 SID 0xcf2e
+p:
+cf30:ffff0000:2718:f001:100:0
+442 SID 0xcf30
+p:
+cf31:ffff0000:2718:f001:100:0
+442 SID 0xcf31
+p:
+cf32:ffff0000:2718:f001:100:0
+442 SID 0xcf32
+p:
+0dac:ffff0000:0003:0085:149:0
+BEM Service
+p:
+0a83:ffff0000:0004:0085:193:0
+NDS Applikation
+p:SKY
+end
+Edited with dreamboxEDIT 7.2.1.0 on 03Feb2025 09:20:11
